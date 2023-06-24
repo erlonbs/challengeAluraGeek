@@ -1,0 +1,22 @@
+.topo__consoles {
+  display: flex;
+  justify-content:space-between;
+  flex-direction: row;
+ 
+}
+
+.topo__consoles .topo__consoles--titulo {
+  font-family: var(--raleway);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  color: #464646;
+}
+
+.topo__consoles .topo__consoles--botao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #2A7AE4;
+  font-weight: 700;
+}

@@ -1,0 +1,9 @@
+.cabecalho__container {
+  display: flex;
+
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0;
+
+}

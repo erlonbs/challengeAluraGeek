@@ -1,0 +1,12 @@
+.linha__diversos {
+  display: flex;
+  flex-direction: column;
+ justify-content: space-between;
+  
+  padding: 0;
+  gap: 16px;
+
+ height: 306px;
+
+
+}

@@ -1,0 +1,29 @@
+.produtos {
+  display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+  
+}
+
+.lista__produtos {
+  display: flex;
+
+}
+
+.lista__produtos li{
+  margin-left: 1rem;
+}
+
+.produto__preco{
+  font-weight: 700; 
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+}
+
+.produto__ver{
+  color: #2A7AE4;
+  font-weight: 700;
+}
+

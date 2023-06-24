@@ -1,0 +1,26 @@
+.topo__diversos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  
+ 
+  
+
+
+}
+
+.topo__diversos .topo__diversos--titulo {
+  font-family: var(--raleway);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  color: #464646;
+}
+
+.topo__diversos--botao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #2A7AE4;
+  font-weight: 700;
+}

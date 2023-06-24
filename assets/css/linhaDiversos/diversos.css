@@ -1,0 +1,26 @@
+.diversos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ 
+ 
+}
+
+.lista__diversos {
+  display: flex;
+  margin-bottom: 2%;
+}
+
+.lista__diversos li {
+  margin-left: 1rem;
+}
+
+.diverso__preco{
+  font-weight: 700; 
+
+}
+
+.diverso__ver{
+  color: #2A7AE4;
+  font-weight: 700;
+}

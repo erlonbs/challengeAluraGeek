@@ -1,0 +1,13 @@
+.banner {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: self-start;
+
+  background-image: url('/assets/images/banner-image.png');
+
+  height: 360px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
