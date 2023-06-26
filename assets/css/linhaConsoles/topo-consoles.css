@@ -1,11 +1,14 @@
 .topo__consoles {
   display: flex;
   justify-content:space-between;
+  align-content: baseline;
   flex-direction: row;
-  padding-left: 7rem;
-  padding-right: 6rem;
+  padding-left: 8.7rem;
+  padding-right: 7.7rem;
   margin-top: 2rem;
- 
+  margin-bottom: 1rem;
+  
+
 }
 
 .topo__consoles .topo__consoles--titulo {

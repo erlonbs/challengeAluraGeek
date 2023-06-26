@@ -1,11 +1,14 @@
 .topo__produtos {
   display: flex;
   justify-content:space-between;
+  align-content: baseline;
   flex-direction: row;
-  padding: 0 8rem;
-  
+  padding-left: 8.7rem;
+  padding-right: 7.7rem;
   margin-top: 2rem;
   
+
+ 
 }
 
 .topo__produtos .topo__produtos--titulo {

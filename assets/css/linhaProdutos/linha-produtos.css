@@ -1,13 +1,9 @@
 .linha__produtos {
-  display: flex;
+  display: flex; 
   flex-direction: column;
- justify-content: space-between;
-  
+  justify-content: space-between;
   padding: 0;
   gap: 16px;
 
- height: 306px;
-
-
+  height: 306px;
 }
-
