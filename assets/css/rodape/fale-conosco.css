@@ -1,0 +1,52 @@
+.container-fale-conosco {
+    display: flex;
+    flex-direction: row;
+    background-color: #EAF2FD;
+    background-size:contain;
+    justify-content: space-around;
+    align-items: center;
+    gap: 112px;
+    height: 368px;
+}
+
+
+
+.fale-conosco {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 240px;
+}
+
+.fale__conosco--titulo {
+    font-family: --raleway;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 18.78px;
+}
+
+.fale__conosco--nome {
+    width: 560px;
+    height: 56px;
+    gap: 8px;
+}
+
+.fale__conosco--mensagem {
+    width: 560px;
+    height: 82px;
+    gap: 8px;
+}
+
+.fale__conosco--botao {
+    width: 165px;
+    height: 51px;
+    padding: 16px;
+    gap: 10px;
+    background-color: #2A7AE4;
+    font-family: --raleway;
+    color: white;
+    font-weight: 400;
+    size: 1rem;
+    line-height: 18.78px;
+
+}

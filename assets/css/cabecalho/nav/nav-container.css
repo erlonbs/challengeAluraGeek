@@ -1,11 +1,10 @@
 .nav__container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
 
-  background: #d6d1ec;
 
+ 
 
 
 }

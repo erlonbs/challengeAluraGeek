@@ -83,6 +83,11 @@
     />
 
     <link rel="stylesheet" href="./assets/css/rodape/rodape.css" />
+
+    <link rel="stylesheet" href="./assets/css/rodape/copyright-rodape.css" />
+    <link rel="stylesheet" href="./assets/css/rodape/fale-conosco.css" />
+    <link rel="stylesheet" href="./assets/css/rodape/links-rodape.css" />
+    <link rel="stylesheet" href="./assets/css/rodape/logo-rodape.css" />
   </head>
   <body>
     <header class="cabecalho__container">
@@ -206,7 +211,8 @@
             </li>
           </ul>
         </div>
-
+      </section>
+      <section class="linha-consoles">
         <div class="topo__consoles">
           <h1 class="topo__consoles--titulo">Consoles</h1>
           <button class="topo__consoles--botao">
@@ -300,7 +306,9 @@
             </li>
           </ul>
         </div>
+      </section>
 
+      <section class="linha-diversos">
         <div class="topo__diversos">
           <h1 class="topo__diversos--titulo">Diversos</h1>
           <button class="topo__diversos--botao">
@@ -397,7 +405,55 @@
       </section>
     </main>
     <footer class="container-footer">
-      <p>o</p>
+      <div class="container-fale-conosco">
+        <div class="footer-logo">
+          <img src="./assets/icons/Logo.svg" alt="Logo do AluraGeek" />
+        </div>
+
+        <div class="quem-somos">
+          <a href="#">Quem somos</a>
+          <a href="#">Política de privacidade</a>
+          <a href="#">programa fidelidade</a>
+          <a href="#">Quero ser franqueado</a>
+          <a href="#">Anuncie aqui</a>
+        </div>
+
+        <div class="fale-conosco">
+          <h3 class="fale__conosco--titulo">Fale conosco</h3>
+          <input class="fale__conosco--nome" type="text" placeholder="Nome" />
+          <textarea
+            class="fale__conosco--mensagem"
+            name="mensagem"
+            id=""
+            cols="20"
+            rows="10"
+            placeholder="Escreva sua mensagem"
+          ></textarea>
+          <button class="fale__conosco--botao">Enviar mensagem</button>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <p class="texto">Desenvolvido por Erlon Barbosa Sena</p>
+        <p class="ano">2023</p>
+      </div>
     </footer>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll('.produto__imagem'), {
+        max: 25,
+        speed: 400,
+        glare: true
+      })
+      VanillaTilt.init(document.querySelectorAll('.console__imagem'), {
+        max: 25,
+        speed: 400,
+        glare: true
+      })
+      VanillaTilt.init(document.querySelectorAll('.diverso__imagem'), {
+        max: 25,
+        speed: 400,
+        glare: true
+      })
+    </script>
   </body>
 </html>

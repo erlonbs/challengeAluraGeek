@@ -1,8 +1,8 @@
 .banner__container {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+ justify-content: space-around;
   align-items: flex-start;
-
+padding-left: 190px;
   gap: 16px;
 }
