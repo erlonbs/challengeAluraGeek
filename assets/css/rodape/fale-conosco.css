@@ -4,11 +4,14 @@
     background-color: #EAF2FD;
     background-size:contain;
     justify-content: space-around;
-    align-items: center;
-    gap: 112px;
+    align-items: center;    
     height: 368px;
 }
 
+.container-fale-conosco .footer-logo {
+   align-self: flex-start;
+    padding-top: 4rem;
+}
 
 
 .fale-conosco {

@@ -1,9 +1,7 @@
 .footer-logo{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
  
 }
 
-.footer-logo img {
-  align-items: flex-start;
-}
