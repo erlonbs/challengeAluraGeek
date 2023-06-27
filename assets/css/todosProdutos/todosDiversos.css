@@ -1,0 +1,18 @@
+.linha-diversos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}   
+
+
+
+.lista__diversos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 4rem;
+ 
+
+}

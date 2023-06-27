@@ -1,0 +1,28 @@
+.todos-produtos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+
+.lista__produtos {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.produto__imagem{
+    display: flex;
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+.produto__nome{
+    display: flex;
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+.produto__preco{
+    display: flex;
+  padding: 0 0 0 0.5rem;
+}

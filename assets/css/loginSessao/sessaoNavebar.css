@@ -1,0 +1,22 @@
+.cabecalho__container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.nav__container{
+    display: flex;
+;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav__logo{
+    display: flex;
+    justify-content: space-around;
+}

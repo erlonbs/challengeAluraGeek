@@ -1,0 +1,32 @@
+.linha-consoles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}   
+
+
+
+.lista__consoles {
+    display: flex;
+    flex-direction: row;
+ align-items: center;
+ margin-left: 4.5rem;
+
+}
+
+.console__imagem{
+    display: flex;
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+.console__nome{
+    display: flex;
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+.console__preco{
+    display: flex;
+  padding: 0 0 0 0.5rem;
+}

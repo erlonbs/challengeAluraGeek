@@ -1,0 +1,38 @@
+.container-sessao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fdf9f9
+
+}
+
+
+.iniciar-sessao {
+    width: 426px;
+    height: 291px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+    
+}
+
+.sessao--email{
+    width: 423px;
+    height: 43px;
+    margin-bottom: 0.4rem;
+}
+
+.sessao--senha{
+    width: 423px;
+    height: 43px;
+}
+
+.sessao--botao {
+    width: 431px;
+    height: 46px;
+    background-color: #2A7AE4;
+    margin-top: 0.4rem;
+    color: white;
+}
