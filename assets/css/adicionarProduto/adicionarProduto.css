@@ -1,0 +1,65 @@
+.container-adicionar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fdf9f9;
+    padding: 3rem;
+    
+
+}
+
+
+.adicionar-produto {
+    width: 426px;
+    height: 351px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+    
+}
+
+.adicionar__url{
+    width: 423px;
+    height: 56px;
+   
+    margin-bottom: 0.4rem;
+}   
+
+.adicionar__categoria{
+    width: 423px;
+    height: 56px;
+   
+    margin-bottom: 0.4rem;
+}
+
+.adicionar__produto{
+    width: 423px;
+    height: 56px;
+    
+    margin-bottom: 0.4rem;
+}
+
+.adicionar__preco{
+    width: 423px;
+    height: 56px;
+
+    margin-bottom: 0.4rem;
+}
+
+.adicionar__descricao{
+    width: 423px;
+    height: 82px;
+    border-radius: 4px;
+    margin-bottom: 0.4rem;
+}
+
+
+.adicionar__botao {
+    width: 431px;
+    height: 60px;
+    background-color: #2A7AE4;
+    margin-top: 0.4rem;
+    color: white;
+}
