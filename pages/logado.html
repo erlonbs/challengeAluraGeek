@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adicionar Produto</title>
+    <title>Logado</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho.css" /> 
     
     <link rel="stylesheet" href="../assets/css/adicionarProduto/navbar.css">
-    <link rel="stylesheet" href="../assets/css/adicionarProduto/adicionarProduto.css">
+  
+    <link rel="stylesheet" href="../assets/css/enviarMensagem/enviarMensagem.css">
     
     <link rel="stylesheet" href="../assets/css/rodape/rodape.css" />
 
@@ -43,28 +44,15 @@
           </div>
         </nav> 
       </header>
-      <section class="container-adicionar">
-        <div class="adicionar-produto">
-          <form action="/pages/produtoAdicionado.html" class="adicionar-produto__formulario">
+      <main class="container-enviar">
+        <div class="enviar-mensagem">
 
+          <h1 class="enviar__titulo">Logado com sucesso!</h1>
+          <p>Que bom voltou!</p>
           
-          <h3 class="adicionar__titulo">Adicionar novo Produto</h3>
-          <input class="adicionar__url" type="text" placeholder="Url da imagem" required/>
-          <input class="adicionar__categoria" type="text" placeholder="Categoria" required />
-          <input class="adicionar__produto" type="text" placeholder="Nome do produto" required />
-          <input class="adicionar__preco" type="text" placeholder="Preço do produto" required/>
-          <textarea
-            class="adicionar__descricao"
-            name="descricao"
-            id=""
-            cols="20"
-            rows="20"
-            placeholder="Descrição do produto" required
-          ></textarea>
-          <button class="adicionar__botao">Adicionar produto</button>
-        </form>
+          <a href="../index.html" class="enviar__botao">Ok</a>
         </div>
-      </section>
+      </main>
       <footer class="container-footer">
         <div class="container-fale-conosco">
           <div class="footer-logo">
@@ -77,23 +65,8 @@
             <a href="#">programa fidelidade</a>
             <a href="#">Quero ser franqueado</a>
             <a href="#">Anuncie aqui</a>
-          </div>
-  
-          <div class="fale-conosco">
-            <form action="/pages/enviarMensagem.html" class="fale-conosco__formulario">
-              <h3 class="fale__conosco--titulo">Fale conosco</h3>
-              <input class="fale__conosco--nome" type="text" placeholder="Nome" required/>
-              <textarea
-                class="fale__conosco--mensagem"
-                name="mensagem"
-                id=""
-                cols="20"
-                rows="10"
-                placeholder="Escreva sua mensagem" required
-              ></textarea>
-              <input type="submit" value="Enviar mensagem" class="fale__conosco--botao" required/>
-            </form>
-          </div>
+          </div>  
+          
         </div>
         <div class="footer-copyright">
           <p class="footer__texto">Desenvolvido por Erlon Barbosa Sena</p>

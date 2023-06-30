@@ -52,13 +52,13 @@
         </nav> 
       </header>
       <section class="container-sessao">
-        <div class="iniciar-sessao">
-
-          <h3 class="sessao--titulo">Iniciar sessão</h3>
-          <input class="sessao--email" type="text" placeholder="Escreva seu e-mail" />
-          <input class="sessao--senha" type="password" placeholder="Escreva sua senha" />
-          <button class="sessao--botao">Entrar</button>
-        </div>
+        <form action="/pages/logado.html" class="fale-conosco__formulario">
+          <h3 class="fale__conosco--titulo">Iniciar sessão</h3>
+          <input class="fale__conosco--nome" type="email" placeholder="email" required/>
+          <input class="fale__conosco--nome" type="senha" placeholder="senha" required/>
+         
+          <input type="submit" value="Entrar" class="fale__conosco--botao" required/>
+        </form>
       </section>
       <footer class="container-footer">
         <div class="container-fale-conosco">
@@ -75,17 +75,19 @@
           </div>
   
           <div class="fale-conosco">
-            <h3 class="fale__conosco--titulo">Fale conosco</h3>
-            <input class="fale__conosco--nome" type="text" placeholder="Nome" />
-            <textarea
-              class="fale__conosco--mensagem"
-              name="mensagem"
-              id=""
-              cols="20"
-              rows="10"
-              placeholder="Escreva sua mensagem"
-            ></textarea>
-            <button class="fale__conosco--botao">Enviar mensagem</button>
+            <form action="/pages/logado.html" class="fale-conosco__formulario">
+              <h3 class="fale__conosco--titulo">Fale conosco</h3>
+              <input class="fale__conosco--nome" type="text" placeholder="Nome" required/>
+              <textarea
+                class="fale__conosco--mensagem"
+                name="mensagem"
+                id=""
+                cols="20"
+                rows="10"
+                placeholder="Escreva sua mensagem" required
+              ></textarea>
+              <input type="submit" value="Entrar" class="fale__conosco--botao" required/>
+            </form>
           </div>
         </div>
         <div class="footer-copyright">

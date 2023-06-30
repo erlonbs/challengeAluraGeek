@@ -184,17 +184,19 @@
         </div>
 
         <div class="fale-conosco">
-          <h3 class="fale__conosco--titulo">Fale conosco</h3>
-          <input class="fale__conosco--nome" type="text" placeholder="Nome" required />
-          <textarea
-            class="fale__conosco--mensagem"
-            name="mensagem"
-            id=""
-            cols="20"
-            rows="10"
-            placeholder="Escreva sua mensagem" required
-          ></textarea>
-          <a href="../pages/enviarMensagem.html" class="fale__conosco--botao">Enviar mensagem</a>
+          <form action="/pages/enviarMensagem.html" class="fale-conosco__formulario">
+            <h3 class="fale__conosco--titulo">Fale conosco</h3>
+            <input class="fale__conosco--nome" type="text" placeholder="Nome" required/>
+            <textarea
+              class="fale__conosco--mensagem"
+              name="mensagem"
+              id=""
+              cols="20"
+              rows="10"
+              placeholder="Escreva sua mensagem" required
+            ></textarea>
+            <input type="submit" value="Enviar mensagem" class="fale__conosco--botao" required/>
+          </form>
         </div>
       </div>
       <div class="footer-copyright">
