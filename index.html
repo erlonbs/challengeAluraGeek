@@ -54,10 +54,7 @@
     <link rel="stylesheet" href="./assets/css/linhaProdutos/produtos.css" />
 
     <link rel="stylesheet" href="./assets/css/linhaConsoles/consoles.css" />
-    <link
-      rel="stylesheet"
-      href="./assets/css/linhaConsoles/linha__consoles.css"
-    />
+
     <link
       rel="stylesheet"
       href="./assets/css/linhaConsoles/topo-consoles.css"
@@ -87,10 +84,9 @@
     <link rel="stylesheet" href="./assets/css/rodape/copyright-rodape.css" />
     <link rel="stylesheet" href="./assets/css/rodape/fale-conosco.css" />
     <link rel="stylesheet" href="./assets/css/rodape/links-rodape.css" />
-    <link rel="stylesheet" href="./assets/css/rodape/logo-rodape.css" />
   </head>
-  <body>
-    <header class="cabecalho__container">
+  <body onload="criarConsole(),criarProduto(),criarDiverso()">
+    <header class="cabecalho__container" >
       <nav class="navbar">
         <div class="nav__container">
           <div class="nav__logo">
@@ -119,6 +115,7 @@
       <section class="linha__produtos">
         <div class="topo__produtos">
           <h1 class="topo__produtos--titulo">Star Wars</h1>
+          
           <a href="/pages/produtos.html" class="topo__produtos--botao">
             Ver tudo<svg
               width="24"
@@ -140,81 +137,14 @@
               </defs>
             </svg>
           </a>
+
         </div>
-
-        <div class="produtos">
-          <ul class="lista__produtos">
-            <li>
-              <img
-                class="produto__imagem"
-                src="./assets/images/starWars1.png"
-                alt=""
-              />
-              <p class="produto__nome">Produto XYZ</p>
-              <p class="produto__preco">R$60,00</p>
-              <a class="produto__ver" href="/pages/produto.html"
-                >Ver produto</a
-              >
-            </li>
-
-            <li>
-              <img
-                class="produto__imagem"
-                src="./assets/images/unsplash_epRFE_hBNjo.png"
-                alt=""
-              />
-              <p class="produto__nome">Produto XYZ</p>
-              <p class="produto__preco">R$60,00</p>
-              <a class="produto__ver" href="/pages/produto.html">Ver produto</a>
-            </li>
-
-            <li>
-              <img
-                class="produto__imagem"
-                src="./assets/images/unsplash_KeGToDVN0l4.png"
-                alt=""
-              />
-              <p class="produto__nome">Produto XYZ</p>
-              <p class="produto__preco">R$60,00</p>
-              <a class="produto__ver" href="/pages/produto.html">Ver produto</a>
-            </li>
-
-            <li>
-              <img
-                class="produto__imagem"
-                src="./assets/images/unsplash_4OHkK555s1A.png"
-                alt=""
-              />
-              <p class="produto__nome">Produto XYZ</p>
-              <p class="produto__preco">R$60,00</p>
-              <a class="produto__ver" href="/pages/produto.html">Ver produto</a>
-            </li>
-
-            <li>
-              <img
-                class="produto__imagem"
-                src="./assets/images/unsplash_R8L1l9RN198.png"
-                alt=""
-              />
-              <p class="produto__nome">Produto XYZ</p>
-              <p class="produto__preco">R$60,00</p>
-              <a class="produto__ver" href="/pages/produto.html">Ver produto</a>
-            </li>
-
-            <li>
-              <img
-                class="produto__imagem"
-                src="./assets/images/unsplash_1VV1MRafd7A.png"
-                alt=""
-              />
-              <p class="produto__nome">Produto XYZ</p>
-              <p class="produto__preco">R$60,00</p>
-              <a class="produto__ver" href="/pages/produto.html">Ver produto</a>
-            </li>
-          </ul>
+   <div class="produtos">
+          <ul id="lista__produtos" class="lista__produtos"></ul>
+     
         </div>
       </section>
-      <section class="linha-consoles">
+      <section class="linha-consoles" onload="criarConsole()">
         <div class="topo__consoles">
           <h1 class="topo__consoles--titulo">Consoles</h1>
           <a href="/pages/produtos.html" class="topo__consoles--botao">
@@ -240,73 +170,7 @@
           </a>
         </div>
         <div class="consoles">
-          <ul class="lista__consoles">
-            <li>
-              <img
-                class="console__imagem"
-                src="./assets/images/console1.png"
-                alt=""
-              />
-              <p class="console__nome">Console XYZ</p>
-              <p class="console__preco">R$60,00</p>
-              <a class="console__ver" href="/pages/produto.html">Ver produto</a>
-            </li>
-
-            <li>
-              <img
-                class="console__imagem"
-                src="./assets/images/console2.png"
-                alt=""
-              />
-              <p class="console__nome">Console XYZ</p>
-              <p class="console__preco">R$60,00</p>
-              <a class="console__ver" href="/pages/produto.html">Ver produto</a>
-            </li>
-
-            <li>
-              <img
-                class="console__imagem"
-                src="./assets/images/console3.png"
-                alt=""
-              />
-              <p class="console__nome">Console XYZ</p>
-              <p class="console__preco">R$60,00</p>
-              <a class="console__ver" href="/pages/produto.html">Ver produto</a>
-            </li>
-
-            <li>
-              <img
-                class="console__imagem"
-                src="./assets/images/console4.png"
-                alt=""
-              />
-              <p class="console__nome">Console XYZ</p>
-              <p class="console__preco">R$60,00</p>
-              <a class="console__ver" href="/pages/produto.html">Ver produto</a>
-            </li>
-
-            <li>
-              <img
-                class="console__imagem"
-                src="./assets/images/console5.png"
-                alt=""
-              />
-              <p class="console__nome">Console XYZ</p>
-              <p class="console__preco">R$60,00</p>
-              <a class="console__ver" href="/pages/produto.html">Ver produto</a>
-            </li>
-
-            <li>
-              <img
-                class="console__imagem"
-                src="./assets/images/console6.png"
-                alt=""
-              />
-              <p class="console__nome">Console XYZ</p>
-              <p class="console__preco">R$60,00</p>
-              <a class="console__ver" href="/pages/produto.html">Ver produto</a>
-            </li>
-          </ul>
+          <ul id="lista__consoles" class="lista__consoles"></ul>
         </div>
       </section>
 
@@ -336,72 +200,8 @@
           </a>
         </div>
         <div class="diversos">
-          <ul class="lista__diversos">
-            <li>
-              <img
-                class="diverso__imagem"
-                src="./assets/images/diverso1.png"
-                alt=""
-              />
-              <p class="diverso__nome">Diverso XYZ</p>
-              <p class="diverso__preco">R$60,00</p>
-              <a class="diverso__ver" href="/pages/produto.html">Ver produto</a>
-            </li>
-
-            <li>
-              <img
-                class="diverso__imagem"
-                src="./assets/images/diverso2.png"
-                alt=""
-              />
-              <p class="diverso__nome">Diverso XYZ</p>
-              <p class="diverso__preco">R$60,00</p>
-              <a class="diverso__ver" href="/pages/produto.html">Ver produto</a>
-            </li>
-
-            <li>
-              <img
-                class="diverso__imagem"
-                src="./assets/images/diverso3.png"
-                alt=""
-              />
-              <p class="diverso__nome">Diverso XYZ</p>
-              <p class="diverso__preco">R$60,00</p>
-              <a class="diverso__ver" href="/pages/produto.html">Ver produto</a>
-            </li>
-
-            <li>
-              <img
-                class="diverso__imagem"
-                src="./assets/images/diverso4.png"
-                alt=""
-              />
-              <p class="diverso__nome">Diverso XYZ</p>
-              <p class="diverso__preco">R$60,00</p>
-              <a class="diverso__ver" href="/pages/produto.html">Ver produto</a>
-            </li>
-
-            <li>
-              <img
-                class="diverso__imagem"
-                src="./assets/images/diverso5.png"
-                alt=""
-              />
-              <p class="diverso__nome">Diverso XYZ</p>
-              <p class="diverso__preco">R$60,00</p>
-              <a class="diverso__ver" href="/pages/produto.html">Ver produto</a>
-            </li>
-
-            <li>
-              <img
-                class="diverso__imagem"
-                src="./assets/images/diverso6.png"
-                alt=""
-              />
-              <p class="diverso__nome">Diverso XYZ</p>
-              <p class="diverso__preco">R$60,00</p>
-              <a class="diverso__ver" href="/pages/produto.html">Ver produto</a>
-            </li>
+          <ul id="lista__diversos" class="lista__diversos">
+           
           </ul>
         </div>
       </section>
@@ -421,18 +221,32 @@
         </div>
 
         <div class="fale-conosco">
-          <form action="/pages/enviarMensagem.html" class="fale-conosco__formulario">
+          <form
+            action="/pages/enviarMensagem.html"
+            class="fale-conosco__formulario"
+          >
             <h3 class="fale__conosco--titulo">Fale conosco</h3>
-            <input class="fale__conosco--nome" type="text" placeholder="Nome" required/>
+            <input
+              class="fale__conosco--nome"
+              type="text"
+              placeholder="Nome"
+              required
+            />
             <textarea
               class="fale__conosco--mensagem"
               name="mensagem"
               id=""
               cols="20"
               rows="10"
-              placeholder="Escreva sua mensagem" required
+              placeholder="Escreva sua mensagem"
+              required
             ></textarea>
-            <input type="submit" value="Enviar mensagem" class="fale__conosco--botao" required/>
+            <input
+              type="submit"
+              value="Enviar mensagem"
+              class="fale__conosco--botao"
+              required
+            />
           </form>
         </div>
       </div>
@@ -441,23 +255,28 @@
         <p class="ano">2023</p>
       </div>
     </footer>
+    <script type="text/javascript" src="produto.js"></script>
+    <script type="text/javascript" src="console.js"></script>
+    <script type="text/javascript" src="diverso.js"></script>
+
+    <div id="imagem-container"></div>
     <script type="text/javascript" src="vanilla-tilt.js"></script>
     <script>
-      VanillaTilt.init(document.querySelectorAll(".produto__imagem"), {
+      VanillaTilt.init(document.querySelectorAll('.produto__imagem'), {
         max: 25,
         speed: 400,
-        glare: true,
-      });
-      VanillaTilt.init(document.querySelectorAll(".console__imagem"), {
+        glare: true
+      })
+      VanillaTilt.init(document.querySelectorAll('.div__consoles'), {
         max: 25,
         speed: 400,
-        glare: true,
-      });
-      VanillaTilt.init(document.querySelectorAll(".diverso__imagem"), {
+        glare: true
+      })
+      VanillaTilt.init(document.querySelectorAll('.diverso__imagem'), {
         max: 25,
         speed: 400,
-        glare: true,
-      });
+        glare: true
+      })
     </script>
   </body>
 </html>

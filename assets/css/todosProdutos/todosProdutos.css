@@ -1,7 +1,8 @@
 .todos-produtos{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+
+  justify-content: center;
 
 }
 
@@ -9,6 +10,7 @@
 .lista__produtos {
     display: flex;
     flex-direction: row;
+    gap: 10px;
 
 }
 

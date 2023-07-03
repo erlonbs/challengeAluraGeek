@@ -9,6 +9,7 @@ justify-content: space-around;
 .lista__produtos {
   display: flex;
   margin-bottom: 2%;
+  gap: 10px;
 }
 
 .lista__produtos li{

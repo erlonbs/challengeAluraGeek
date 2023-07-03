@@ -8,6 +8,7 @@
 
 .lista__consoles {
   display: flex;
+  gap: 10px;
 }
 
 .lista__consoles li {

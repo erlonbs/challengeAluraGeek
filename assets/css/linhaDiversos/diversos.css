@@ -9,6 +9,7 @@
 .lista__diversos {
   display: flex;
   margin-bottom: 2%;
+  gap: 10px;
 }
 
 .lista__diversos li {
