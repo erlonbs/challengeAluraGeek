@@ -1,0 +1,84 @@
+.cabecalho__container {
+  height: 100px;
+}
+
+.container-consoles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: rgb(237, 241, 245);
+}
+
+.console-unitario {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  height: 560px;
+  margin-top: 3rem;
+}
+
+.linha__consoles {
+  margin-bottom: 2rem;
+}
+
+.imagem-container__unitario {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0.5rem;
+  width: 560px;
+  height: 403px;
+}
+
+.imagem-container__unitario img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 0.5rem;
+  width: 560px;
+  height: 403px;
+}
+
+.console__dados {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  width: 560px;
+  height: 210px;
+  margin-left: 0.5rem;
+}
+
+.console__dados p:nth-child(1) {
+  font-size: 20px;
+  color: #464646;
+}
+
+.console__dados p:nth-child(2) {
+  font-size: 52px;
+  font-weight: bold;
+  color: #464646;
+}
+
+.console__dados p:nth-child(3) {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.7px;
+  color: #464646;
+}
+
+.lista__consoles {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.topo__consoles--titulo {
+  font-family: --raleway;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  color: #464646;
+}

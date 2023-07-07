@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge AluraGeek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/reset.css" />
+    <link rel="stylesheet" href="../assets/css/cabecalho/cabecalho.css" />
+    <link rel="stylesheet" href="../assets/css/cabecalho/nav/navbar.css" />
+    <link
+      rel="stylesheet"
+      href="../assets/css/cabecalho/nav/nav-container.css"
+    />
+    <link rel="stylesheet" href="../assets/css/cabecalho/nav/nav-logo.css" />
+    <link rel="stylesheet" href="../assets/css/cabecalho/nav/nav-botao.css" />
+    <link
+      rel="stylesheet"
+      href="../assets/css/cabecalho/nav/nav-pesquisar.css"
+    />
+    <link rel="stylesheet" href="../assets/css/base.css" />
+
+    <link
+      rel="stylesheet"
+      href="../assets/css/linhaProdutos/linha-produtos.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../assets/css/linhaProdutos/topo-produtos.css"
+    />
+    <link rel="stylesheet" href="../assets/css/linhaProdutos/produtos.css" />
+
+    <link
+      rel="stylesheet"
+      href="../assets/css/consoleUnitario/consoleUnitario.css"
+    />
+
+    <link rel="stylesheet" href="../assets/css/rodape/rodape.css" />
+
+    <link rel="stylesheet" href="../assets/css/rodape/copyright-rodape.css" />
+    <link rel="stylesheet" href="../assets/css/rodape/fale-conosco.css" />
+    <link rel="stylesheet" href="../assets/css/rodape/links-rodape.css" />
+    <link rel="stylesheet" href="../assets/css/rodape/logo-rodape.css" />
+  </head>
+  <body onload="criarConsole()">
+    <script type="text/javascript" src="/console.js"></script>
+    <header class="cabecalho__container">
+      <nav class="navbar">
+        <div class="nav__container">
+          <div class="nav__logo">
+            <img
+              class="nav__logo--logo"
+              src="../assets/icons/Logo.svg"
+              alt="Logo Alura Geek"
+            />
+            <input
+              class="nav__logo--pesquisar"
+              type="text"
+              placeholder="O que desesja encontrar? "
+            />
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container-consoles">
+      <section class="console-unitario">
+        <div id="imagem-container__unitario" class="imagem-container__unitario"></div>
+
+        <div id="console__dados" class="console__dados">
+          <script>
+            const urlParams = new URLSearchParams(window.location.search)
+            const cardId = urlParams.get('id')
+
+            const conteudoDiv = document.getElementById('console__dados')
+            const conteudoImagem = document.getElementById('imagem-container__unitario')
+
+            switch (cardId) {
+              case '1':
+                var exibirConsoleNome = document.createElement('p')
+                exibirConsoleNome.textContent = 'Nome: ' + listaConsole[0].nome
+
+                var exibirConsolePreco = document.createElement('p')
+                exibirConsolePreco.textContent =
+                  'Preço: ' + listaConsole[0].preco
+
+                var exibirConsoleImagem = document.createElement('img')
+                exibirConsoleImagem.src = listaConsole[0].imagem
+
+                var exibirConsoleDescricao = document.createElement('p')
+                exibirConsoleDescricao.textContent= listaConsole[0].descricao
+
+                conteudoImagem.appendChild(exibirConsoleImagem)
+                conteudoDiv.appendChild(exibirConsoleNome)
+                conteudoDiv.appendChild(exibirConsolePreco)
+                conteudoDiv.appendChild(exibirConsoleDescricao)
+                break
+
+              case '2':
+              var exibirConsoleNome = document.createElement('p')
+                exibirConsoleNome.textContent = 'Nome: ' + listaConsole[1].nome
+
+                var exibirConsolePreco = document.createElement('p')
+                exibirConsolePreco.textContent =
+                  'Preço: ' + listaConsole[1].preco
+
+                var exibirConsoleImagem = document.createElement('img')
+                exibirConsoleImagem.src = listaConsole[1].imagem
+
+                var exibirConsoleDescricao = document.createElement('p')
+                exibirConsoleDescricao.textContent= listaConsole[1].descricao
+
+                conteudoImagem.appendChild(exibirConsoleImagem)
+                conteudoDiv.appendChild(exibirConsoleNome)
+                conteudoDiv.appendChild(exibirConsolePreco)
+                conteudoDiv.appendChild(exibirConsoleDescricao)
+                break
+
+              case '3':
+              var exibirConsoleNome = document.createElement('p')
+                exibirConsoleNome.textContent = 'Nome: ' + listaConsole[2].nome
+
+                var exibirConsolePreco = document.createElement('p')
+                exibirConsolePreco.textContent =
+                  'Preço: ' + listaConsole[2].preco
+
+                var exibirConsoleImagem = document.createElement('img')
+                exibirConsoleImagem.src = listaConsole[2].imagem
+
+                var exibirConsoleDescricao = document.createElement('p')
+                exibirConsoleDescricao.textContent= listaConsole[2].descricao
+
+                conteudoImagem.appendChild(exibirConsoleImagem)
+                conteudoDiv.appendChild(exibirConsoleNome)
+                conteudoDiv.appendChild(exibirConsolePreco)
+                conteudoDiv.appendChild(exibirConsoleDescricao)
+                break
+
+              case '4':
+              var exibirConsoleNome = document.createElement('p')
+                exibirConsoleNome.textContent = 'Nome: ' + listaConsole[3].nome
+
+                var exibirConsolePreco = document.createElement('p')
+                exibirConsolePreco.textContent =
+                  'Preço: ' + listaConsole[3].preco
+
+                var exibirConsoleImagem = document.createElement('img')
+                exibirConsoleImagem.src = listaConsole[3].imagem
+
+                var exibirConsoleDescricao = document.createElement('p')
+                exibirConsoleDescricao.textContent= listaConsole[3].descricao
+
+                conteudoImagem.appendChild(exibirConsoleImagem)
+                conteudoDiv.appendChild(exibirConsoleNome)
+                conteudoDiv.appendChild(exibirConsolePreco)
+                conteudoDiv.appendChild(exibirConsoleDescricao)
+                break
+
+              case '5':
+              var exibirConsoleNome = document.createElement('p')
+                exibirConsoleNome.textContent = 'Nome: ' + listaConsole[4].nome
+
+                var exibirConsolePreco = document.createElement('p')
+                exibirConsolePreco.textContent =
+                  'Preço: ' + listaConsole[4].preco
+
+                var exibirConsoleImagem = document.createElement('img')
+                exibirConsoleImagem.src = listaConsole[4].imagem
+
+                var exibirConsoleDescricao = document.createElement('p')
+                exibirConsoleDescricao.textContent= listaConsole[4].descricao
+
+                conteudoImagem.appendChild(exibirConsoleImagem)
+                conteudoDiv.appendChild(exibirConsoleNome)
+                conteudoDiv.appendChild(exibirConsolePreco)
+                conteudoDiv.appendChild(exibirConsoleDescricao)
+                break
+
+              case '6':
+              var exibirConsoleNome = document.createElement('p')
+                exibirConsoleNome.textContent = 'Nome: ' + listaConsole[5].nome
+
+                var exibirConsolePreco = document.createElement('p')
+                exibirConsolePreco.textContent =
+                  'Preço: ' + listaConsole[5].preco
+
+                var exibirConsoleImagem = document.createElement('img')
+                exibirConsoleImagem.src = listaConsole[5].imagem
+
+                var exibirConsoleDescricao = document.createElement('p')
+                exibirConsoleDescricao.textContent= listaConsole[5].descricao
+
+                conteudoImagem.appendChild(exibirConsoleImagem)
+                conteudoDiv.appendChild(exibirConsoleNome)
+                conteudoDiv.appendChild(exibirConsolePreco)
+                conteudoDiv.appendChild(exibirConsoleDescricao)
+                break
+
+              default:
+                cardContentElement.innerText = 'Produto não encontrado'
+                break
+            }
+          </script>
+        </div>
+      </section>
+      <section class="linha__consoles">
+        <div class="topo__consoles">
+          <h1 class="topo__consoles--titulo">Produtos Similares</h1>
+        </div>
+
+        <div class="consoles">
+          <ul id="lista__consoles" class="lista__consoles"></ul>
+        </div>
+      </section>
+    </main>
+    <footer class="container-footer">
+      <div class="container-fale-conosco">
+        <div class="footer-logo">
+          <img src="../assets/icons/Logo.svg" alt="Logo do AluraGeek" />
+        </div>
+
+        <div class="quem-somos">
+          <a href="#">Quem somos</a>
+          <a href="#">Política de privacidade</a>
+          <a href="#">programa fidelidade</a>
+          <a href="#">Quero ser franqueado</a>
+          <a href="#">Anuncie aqui</a>
+        </div>
+
+        <div class="fale-conosco">
+          <form
+            action="/pages/enviarMensagem.html"
+            class="fale-conosco__formulario"
+          >
+            <h3 class="fale__conosco--titulo">Fale conosco</h3>
+            <input
+              class="fale__conosco--nome"
+              type="text"
+              placeholder="Nome"
+              required
+            />
+            <textarea
+              class="fale__conosco--mensagem"
+              name="mensagem"
+              id=""
+              cols="20"
+              rows="10"
+              placeholder="Escreva sua mensagem"
+              required
+            ></textarea>
+            <input
+              type="submit"
+              value="Enviar mensagem"
+              class="fale__conosco--botao"
+              required
+            />
+          </form>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <p class="texto">Desenvolvido por Erlon Barbosa Sena</p>
+        <p class="ano">2023</p>
+      </div>
+    </footer>
+    <script type="text/javascript" src="/vanilla-tilt.js"></script>
+
+    <script>
+      VanillaTilt.init(document.querySelectorAll('.produto__imagem'), {
+        max: 25,
+        speed: 400,
+        glare: true
+      })
+      VanillaTilt.init(document.querySelectorAll('.console__imagem'), {
+        max: 25,
+        speed: 400,
+        glare: true
+      })
+      VanillaTilt.init(document.querySelectorAll('.diverso__imagem'), {
+        max: 25,
+        speed: 400,
+        glare: true
+      })
+    </script>
+  </body>
+</html>

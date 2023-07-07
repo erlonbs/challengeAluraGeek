@@ -36,7 +36,10 @@
     />
     <link rel="stylesheet" href="../assets/css/linhaProdutos/produtos.css" />
 
-    <link rel="stylesheet" href="../assets/css/produtoUnitario/produtoUnitario.css">
+    <link
+      rel="stylesheet"
+      href="../assets/css/produtoUnitario/produtoUnitario.css"
+    />
 
     <link rel="stylesheet" href="../assets/css/rodape/rodape.css" />
 
@@ -45,7 +48,8 @@
     <link rel="stylesheet" href="../assets/css/rodape/links-rodape.css" />
     <link rel="stylesheet" href="../assets/css/rodape/logo-rodape.css" />
   </head>
-  <body>
+  <body onload="criarProduto()">
+    <script type="text/javascript" src="/produto.js"></script>
     <header class="cabecalho__container">
       <nav class="navbar">
         <div class="nav__container">
@@ -66,29 +70,143 @@
     </header>
     <main class="container-produtos">
       <section class="produto-unitario">
-        <div class="imagem-container__unitario">
+        <div id="imagem-container__unitario" class="imagem-container__unitario"></div>
+        <div id="produto__dados" class="produto__dados">
+          <script>
+            const urlParams = new URLSearchParams(window.location.search);
+            const cardId = urlParams.get("id");
 
-            <img
-              class="produto__imagem--unitario"
-              src="../assets/images/starWars1.png"
-              alt=""
-            />
-        </div>
-        <div class="produto__dados">
+            const conteudoDiv = document.getElementById("produto__dados");
+            const conteudoImagem = document.getElementById(
+              "imagem-container__unitario"
+            );
 
-            <p class="produto__nome--unitario">Produto XYZ</p>
-            <p class="produto__preco">R$60,00</p>
-            <p class="produto__descricao">
-              Voluptas voluptatum quibusdam similique, class debitis alias maecenas
-              eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima
-              malesuada habitasse distinctio sequi aliqua malesuada. Quisque
-              deleniti proin expedita, aliquid litora. Iste recusandae? Commodo,
-              quia ridiculusVoluptas voluptatum quibusdam similique, class debitis
-              alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia?
-              Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada.
-              Quisque deleniti proin expedita, aliquid litora. Iste recusandae?
-              Commodo, quia ridiculus
-            </p>
+            switch (cardId) {
+              case "1":
+                var exibirProdutoNome = document.createElement("p");
+                exibirProdutoNome.textContent = "Nome: " + listaProduto[0].nome;
+
+                var exibirProdutoPreco = document.createElement("p");
+                exibirProdutoPreco.textContent =
+                  "Preço: " + listaProduto[0].preco;
+
+                var exibirProdutoImagem = document.createElement("img");
+                exibirProdutoImagem.src = listaProduto[0].imagem;
+
+                var exibirProdutoDescricao = document.createElement("p");
+                exibirProdutoDescricao.textContent = listaProduto[0].descricao;
+
+                conteudoImagem.appendChild(exibirProdutoImagem);
+                conteudoDiv.appendChild(exibirProdutoNome);
+                conteudoDiv.appendChild(exibirProdutoPreco);
+                conteudoDiv.appendChild(exibirProdutoDescricao);
+                break;
+
+              case "2":
+                var exibirProdutoNome = document.createElement("p");
+                exibirProdutoNome.textContent = "Nome: " + listaProduto[1].nome;
+
+                var exibirProdutoPreco = document.createElement("p");
+                exibirProdutoPreco.textContent =
+                  "Preço: " + listaProduto[1].preco;
+
+                var exibirProdutoImagem = document.createElement("img");
+                exibirProdutoImagem.src = listaProduto[1].imagem;
+
+                var exibirProdutoDescricao = document.createElement("p");
+                exibirProdutoDescricao.textContent = listaProduto[1].descricao;
+
+                conteudoImagem.appendChild(exibirProdutoImagem);
+                conteudoDiv.appendChild(exibirProdutoNome);
+                conteudoDiv.appendChild(exibirProdutoPreco);
+                conteudoDiv.appendChild(exibirProdutoDescricao);
+                break;
+
+              case "3":
+                var exibirProdutoNome = document.createElement("p");
+                exibirProdutoNome.textContent = "Nome: " + listaProduto[2].nome;
+
+                var exibirProdutoPreco = document.createElement("p");
+                exibirProdutoPreco.textContent =
+                  "Preço: " + listaProduto[2].preco;
+
+                var exibirProdutoImagem = document.createElement("img");
+                exibirProdutoImagem.src = listaProduto[2].imagem;
+
+                var exibirProdutoDescricao = document.createElement("p");
+                exibirProdutoDescricao.textContent = listaProduto[2].descricao;
+
+                conteudoImagem.appendChild(exibirProdutoImagem);
+                conteudoDiv.appendChild(exibirProdutoNome);
+                conteudoDiv.appendChild(exibirProdutoPreco);
+                conteudoDiv.appendChild(exibirProdutoDescricao);
+                break;
+
+              case "4":
+                var exibirProdutoNome = document.createElement("p");
+                exibirProdutoNome.textContent = "Nome: " + listaProduto[3].nome;
+
+                var exibirProdutoPreco = document.createElement("p");
+                exibirProdutoPreco.textContent =
+                  "Preço: " + listaProduto[3].preco;
+
+                var exibirProdutoImagem = document.createElement("img");
+                exibirProdutoImagem.src = listaProduto[3].imagem;
+
+                var exibirProdutoDescricao = document.createElement("p");
+                exibirProdutoDescricao.textContent = listaProduto[3].descricao;
+
+                conteudoImagem.appendChild(exibirProdutoImagem);
+                conteudoDiv.appendChild(exibirProdutoNome);
+                conteudoDiv.appendChild(exibirProdutoPreco);
+                conteudoDiv.appendChild(exibirProdutoDescricao);
+                break;
+
+              case "5":
+                var exibirProdutoNome = document.createElement("p");
+                exibirProdutoNome.textContent = "Nome: " + listaProduto[4].nome;
+
+                var exibirProdutoPreco = document.createElement("p");
+                exibirProdutoPreco.textContent =
+                  "Preço: " + listaProduto[4].preco;
+
+                var exibirProdutoImagem = document.createElement("img");
+                exibirProdutoImagem.src = listaProduto[4].imagem;
+
+                var exibirProdutoDescricao = document.createElement("p");
+                exibirProdutoDescricao.textContent = listaProduto[4].descricao;
+
+                conteudoImagem.appendChild(exibirProdutoImagem);
+                conteudoDiv.appendChild(exibirProdutoNome);
+                conteudoDiv.appendChild(exibirProdutoPreco);
+                conteudoDiv.appendChild(exibirProdutoDescricao);
+                break;
+
+              case "6":
+                var exibirProdutoNome = document.createElement("p");
+                exibirProdutoNome.textContent = "Nome: " + listaProduto[5].nome;
+
+                var exibirProdutoPreco = document.createElement("p");
+                exibirProdutoPreco.textContent =
+                  "Preço: " + listaProduto[5].preco;
+
+                var exibirProdutoImagem = document.createElement("img");
+                exibirProdutoImagem.src = listaProduto[5].imagem;
+
+                var exibirProdutoDescricao = document.createElement("p");
+                exibirProdutoDescricao.textContent = listaProduto[5].descricao;
+
+                conteudoImagem.appendChild(exibirProdutoImagem);
+                conteudoDiv.appendChild(exibirProdutoNome);
+                conteudoDiv.appendChild(exibirProdutoPreco);
+                conteudoDiv.appendChild(exibirProdutoDescricao);
+                break;
+
+              default:
+                cardContentElement.innerText = "Produto não encontrado";
+                break;
+            }
+          </script>
         </div>
       </section>
       <section class="linha__produtos">
@@ -97,75 +215,7 @@
         </div>
 
         <div class="produtos">
-          <ul class="lista__produtos">
-            <li>
-              <img
-                class="produto__imagem"
-                src="../assets/images/starWars1.png"
-                alt=""
-              />
-              <p class="produto__nome">Produto XYZ</p>
-              <p class="produto__preco">R$60,00</p>
-              <a class="produto__ver" href="/pages/produtos.html"
-                >Ver produto</a
-              >
-            </li>
-
-            <li>
-              <img
-                class="produto__imagem"
-                src="../assets/images/unsplash_epRFE_hBNjo.png"
-                alt=""
-              />
-              <p class="produto__nome">Produto XYZ</p>
-              <p class="produto__preco">R$60,00</p>
-              <a class="produto__ver" href="">Ver produto</a>
-            </li>
-
-            <li>
-              <img
-                class="produto__imagem"
-                src="../assets/images/unsplash_KeGToDVN0l4.png"
-                alt=""
-              />
-              <p class="produto__nome">Produto XYZ</p>
-              <p class="produto__preco">R$60,00</p>
-              <a class="produto__ver" href="">Ver produto</a>
-            </li>
-
-            <li>
-              <img
-                class="produto__imagem"
-                src="../assets/images/unsplash_4OHkK555s1A.png"
-                alt=""
-              />
-              <p class="produto__nome">Produto XYZ</p>
-              <p class="produto__preco">R$60,00</p>
-              <a class="produto__ver" href="">Ver produto</a>
-            </li>
-
-            <li>
-              <img
-                class="produto__imagem"
-                src="../assets/images/unsplash_R8L1l9RN198.png"
-                alt=""
-              />
-              <p class="produto__nome">Produto XYZ</p>
-              <p class="produto__preco">R$60,00</p>
-              <a class="produto__ver" href="">Ver produto</a>
-            </li>
-
-            <li>
-              <img
-                class="produto__imagem"
-                src="../assets/images/unsplash_1VV1MRafd7A.png"
-                alt=""
-              />
-              <p class="produto__nome">Produto XYZ</p>
-              <p class="produto__preco">R$60,00</p>
-              <a class="produto__ver" href="">Ver produto</a>
-            </li>
-          </ul>
+          <ul id="lista__produtos" class="lista__produtos"></ul>
         </div>
       </section>
     </main>
@@ -184,18 +234,32 @@
         </div>
 
         <div class="fale-conosco">
-          <form action="/pages/enviarMensagem.html" class="fale-conosco__formulario">
+          <form
+            action="/pages/enviarMensagem.html"
+            class="fale-conosco__formulario"
+          >
             <h3 class="fale__conosco--titulo">Fale conosco</h3>
-            <input class="fale__conosco--nome" type="text" placeholder="Nome" required/>
+            <input
+              class="fale__conosco--nome"
+              type="text"
+              placeholder="Nome"
+              required
+            />
             <textarea
               class="fale__conosco--mensagem"
               name="mensagem"
               id=""
               cols="20"
               rows="10"
-              placeholder="Escreva sua mensagem" required
+              placeholder="Escreva sua mensagem"
+              required
             ></textarea>
-            <input type="submit" value="Enviar mensagem" class="fale__conosco--botao" required/>
+            <input
+              type="submit"
+              value="Enviar mensagem"
+              class="fale__conosco--botao"
+              required
+            />
           </form>
         </div>
       </div>
@@ -205,6 +269,7 @@
       </div>
     </footer>
     <script type="text/javascript" src="/vanilla-tilt.js"></script>
+
     <script>
       VanillaTilt.init(document.querySelectorAll(".produto__imagem"), {
         max: 25,

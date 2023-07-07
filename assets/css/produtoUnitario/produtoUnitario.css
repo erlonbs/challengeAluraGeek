@@ -1,68 +1,85 @@
-.cabecalho__container{
- 
+.cabecalho__container {
     height: 100px;
-}
-
-.container-produtos {
+  }
+  
+  .container-produtos {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+  
     background-color: rgb(237, 241, 245);
-    
-}
-
-.linha__produtos{
-    margin-bottom:  2rem;
-}
-
-.produto-unitario{
+  }
+  
+  .produto-unitario {
     display: flex;
-    flex-direction: row;    
-    
-    width: 1136px;
-    height: 503px;
+    flex-direction: row;
+    justify-content: center;
+  
+    height: 560px;
     margin-top: 3rem;
-}
-
-.imagem-container__unitario{
+  }
+  
+  .linha__produtos {
+    margin-bottom: 2rem;
+  }
+  
+  .imagem-container__unitario {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-left: 0.5rem;
-}
-
-.produto__imagem--unitario {
-    display: flex;
     width: 560px;
     height: 403px;
-}
-
-.produto__dados{
+  }
+  
+  .imagem-container__unitario img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 0.5rem;
+    width: 560px;
+    height: 403px;
+  }
+  
+  .produto__dados {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-end;
     width: 560px;
-    height: 403px;
+    height: 210px;
     margin-left: 0.5rem;
-   
-}
-
-.produto__nome--unitario{
-    font-family: --raleway;
-    font-weight: 500 ;
+  }
+  
+  .produto__dados p:nth-child(1) {
+    font-size: 20px;
+    color: #464646;
+  }
+  
+  .produto__dados p:nth-child(2) {
     font-size: 52px;
-}
-
-.produto__preco{
+    font-weight: bold;
+    color: #464646;
+  }
+  
+  .produto__dados p:nth-child(3) {
     font-size: 16px;
-    line-height: 18.7px;
     font-weight: 700;
-}
-
-.produto__descricao{
-    font-size: 16px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18.78px;
-}
+    line-height: 18.7px;
+    color: #464646;
+  }
+  
+  .lista__produtos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .topo__produtos--titulo {
+    font-family: --raleway;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    color: #464646;
+  }
+  
