@@ -9,22 +9,30 @@
 
 .lista__produtos {
     display: flex;
-    flex-direction: row;
+    flex-direction: row;    
     gap: 10px;
-
+   margin-bottom: 0;
+    
 }
 
-.produto__imagem{
-    display: flex;
-  padding: 0 0.5rem 0 0.5rem;
+.botoes-direcionar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.produto__nome{
-    display: flex;
-  padding: 0 0.5rem 0 0.5rem;
+
+
+.botao-menu {
+  width: 95px;
+  height: 39px;
+  background-color: #2A7AE4;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
 }
 
-.produto__preco{
-    display: flex;
-  padding: 0 0 0 0.5rem;
+.topo__produtos--botao {
+  text-decoration: none;
 }

@@ -1,6 +1,17 @@
 .cabecalho__container {
-    height: 100px;
-  }
+    height: 115px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  } 
+
+.nav__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+  
   
   .container-produtos {
     display: flex;
@@ -83,3 +94,11 @@
     color: #464646;
   }
   
+  
+.botao-voltar {
+  width: 95px;
+  height: 33px;
+  background-color: #2A7AE4;
+  color: white;
+  border-radius: 8px;
+}

@@ -82,3 +82,12 @@
   line-height: 38px;
   color: #464646;
 }
+
+
+.botao-voltar {
+  width: 95px;
+  height: 33px;
+  background-color: #2A7AE4;
+  color: white;
+  border-radius: 8px;
+}

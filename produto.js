@@ -78,14 +78,17 @@ function criarProduto() {
 
     item.appendChild(img);
 
-    var nome = document.createElement("h2");
+    var nome = document.createElement("p");
     nome.textContent = listaProduto[i].nome;
+    nome.style.margin=0;
 
     item.appendChild(nome);
 
     var preco = document.createElement("p");
     preco.style.fontWeight='700';
+    preco.style.margin=0;
     preco.textContent = "R$ " + listaProduto[i].preco +",00";
+   
     item.appendChild(preco);
 
     var verProduto = document.createElement("a");
@@ -95,9 +98,14 @@ function criarProduto() {
     verProduto.style.color ='#2A7AE4';
     verProduto.style.fontWeight ='700';
     verProduto.href = "/pages/produto.html?id=" + listaProduto[i].id;
+    verProduto.style.textDecorationLine ='none';
 
     item.appendChild(verProduto);
 
     container.appendChild(item);
   }
+}
+
+function voltar(){
+  window.history.back();
 }

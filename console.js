@@ -79,14 +79,15 @@ var listaConsole = [];
 
     item.appendChild(img);
 
-    var nome = document.createElement("h2");
+    var nome = document.createElement("p");
     nome.textContent = listaConsole[i].nome;
-
+    nome.style.margin=0;
     item.appendChild(nome);
 
     var preco = document.createElement("p");
     preco.textContent = "R$ " + listaConsole[i].preco+',00';
     preco.style.fontWeight='700';
+    preco.style.margin = 0;
     item.appendChild(preco);
 
     container.appendChild(item);
@@ -97,6 +98,7 @@ var listaConsole = [];
     verConsole.textContent = "Ver produto ";
     verConsole.style.color ='#2A7AE4';
     verConsole.style.fontWeight ='700';
+    verConsole.style.textDecorationLine='none';
     verConsole.href = '/pages/console.html?id=' + listaConsole[i].id;
 
     item.appendChild(verConsole);

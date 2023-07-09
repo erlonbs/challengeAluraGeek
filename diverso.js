@@ -78,14 +78,15 @@ function criarDiverso() {
 
     item.appendChild(img);
 
-    var nome = document.createElement("h2");
+    var nome = document.createElement("p");
     nome.textContent = listaDiverso[i].nome;
-
+    nome.style.margin=0;
     item.appendChild(nome);
 
     var preco = document.createElement("p");   
     preco.textContent = "R$ " + listaDiverso[i].preco+",00";
     preco.style.fontWeight='700';
+    preco.style.margin=0;
     item.appendChild(preco);
 
     container.appendChild(item);
@@ -96,6 +97,7 @@ function criarDiverso() {
     verDiverso.style.color ='#2A7AE4';
     verDiverso.style.fontWeight ='700';
     verDiverso.href = "/pages/diverso.html?id=" + listaDiverso[i].id;
+    verDiverso.style.textDecorationLine='none';
 
     item.appendChild(verDiverso);
 

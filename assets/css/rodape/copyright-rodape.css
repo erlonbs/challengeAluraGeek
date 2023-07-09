@@ -5,4 +5,9 @@
     height: 102px;
     background-color: white rgb(225, 243, 243);
     justify-content: center;
+    
+}
+
+.footer-copyright p {
+    margin: 0;
 }

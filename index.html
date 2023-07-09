@@ -85,6 +85,7 @@
     <link rel="stylesheet" href="./assets/css/rodape/fale-conosco.css" />
     <link rel="stylesheet" href="./assets/css/rodape/links-rodape.css" />
   </head>
+  <script type="text/javascript" src="index.js"></script>
   <body onload="criarConsole(),criarProduto(),criarDiverso()">
     <header class="cabecalho__container" >
       <nav class="navbar">
@@ -107,7 +108,21 @@
           <p class="banner__descricao">
             Produtos selecionados com 33% de desconto
           </p>
-          <button class="banner__botao">Ver Consoles</button>
+      
+
+          <div id="opcoes__produtos" class="opcoes__produtos"></option>
+            <select  class="banner__botao" onchange="location.href=this.value">
+              <option value="pages/console.html?id=1" >Ver Consoles</option>
+              <option value="pages/produto.html?id=1"  >Ver Produtos</option>
+              <option value="pages/diverso.html?id=1" >Ver Diversos</option>
+
+            </select>
+          
+           
+
+
+
+          </div>
         </div>
       </div>
     </header>
@@ -266,7 +281,7 @@
     <div id="imagem-container"></div>
     <script type="text/javascript" src="vanilla-tilt.js"></script>
     <script>
-      VanillaTilt.init(document.querySelectorAll('.produto__imagem'), {
+      VanillaTilt.init(document.querySelectorAll('.div__produtos:img'), {
         max: 25,
         speed: 400,
         glare: true

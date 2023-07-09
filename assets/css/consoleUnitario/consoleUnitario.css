@@ -2,6 +2,26 @@
   height: 100px;
 }
 
+.nav-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo__imagem{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo__pesquisar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .container-consoles {
   display: flex;
   flex-direction: column;
@@ -81,4 +101,12 @@
   font-weight: 700;
   line-height: 38px;
   color: #464646;
+}
+
+.botao-voltar {
+  width: 95px;
+  height: 33px;
+  background-color: #2A7AE4;
+  color: white;
+  border-radius: 8px;
 }

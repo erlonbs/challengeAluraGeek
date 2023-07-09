@@ -2,3 +2,7 @@
  display: flex;
  flex-direction: column;
 }
+
+.banner__botao{
+  text-decoration: none;
+}

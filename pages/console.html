@@ -50,15 +50,20 @@
   </head>
   <body onload="criarConsole()">
     <script type="text/javascript" src="/console.js"></script>
+    <script type="text/javascript" src="/produto.js"></script>
     <header class="cabecalho__container">
       <nav class="navbar">
         <div class="nav__container">
-          <div class="nav__logo">
+         
+          <div class="nav-logo__imagem">
             <img
               class="nav__logo--logo"
               src="../assets/icons/Logo.svg"
               alt="Logo Alura Geek"
             />
+          </div>
+          <div class="nav-logo__pesquisar">
+
             <input
               class="nav__logo--pesquisar"
               type="text"
@@ -69,6 +74,7 @@
       </nav>
     </header>
     <main class="container-consoles">
+      <button class="botao-voltar" onclick="voltar()">Voltar</button>
       <section class="console-unitario">
         <div id="imagem-container__unitario" class="imagem-container__unitario"></div>
 

@@ -1,3 +1,7 @@
+.cabecalho__container {
+ height: 115px;
+}
+
 .container-enviar{
     display: flex;
     flex-direction: column;
@@ -29,10 +33,10 @@ align-items: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 131px;
-    height: 60px;
-    border-radius: 10px;
-    background-color: #2A7AE4;
-    margin-top: 0.4rem;
-    color: white;
+    width: 95px;
+  height: 33px;
+  background-color: #2A7AE4;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
 }
