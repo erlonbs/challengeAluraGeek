@@ -1,10 +1,10 @@
 .topo__consoles {
   display: flex;
-  justify-content:space-between;
+  align-items: center;
+  justify-content:space-around;
   align-content: baseline;
   flex-direction: row;
-  padding-left: 8.7rem;
-  padding-right: 7.7rem;
+  
   margin-top: 2rem;
   margin-bottom: 1rem;
   

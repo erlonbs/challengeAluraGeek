@@ -109,3 +109,9 @@ function criarProduto() {
 function voltar(){
   window.history.back();
 }
+
+
+function telaInicial(){
+  window.location.href="/index.html"
+}
+

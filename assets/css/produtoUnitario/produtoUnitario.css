@@ -1,17 +1,39 @@
 .cabecalho__container {
+
     height: 115px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+   
   } 
 
-.nav__container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
 
+  .navbar {
+    
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .nav-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav__container{
+    display: flex;
+    align-items: center;
+  }
   
+  .nav-logo__pesquisar {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+ 
+  }
   
   .container-produtos {
     display: flex;
@@ -101,4 +123,16 @@
   background-color: #2A7AE4;
   color: white;
   border-radius: 8px;
+  margin-top: 0.2rem;
+}
+
+  
+.botao-menu {
+  width: 95px;
+  height: 33px;
+  background-color: #2A7AE4;
+  color: white;
+  border-radius: 8px;
+ 
+  margin-top: 1rem;
 }

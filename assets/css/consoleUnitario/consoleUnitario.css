@@ -1,6 +1,10 @@
 .cabecalho__container {
   height: 100px;
 }
+.navbar{
+  justify-content: space-around;
+  align-items: center;
+}
 
 .nav-container{
   display: flex;
@@ -109,4 +113,5 @@
   background-color: #2A7AE4;
   color: white;
   border-radius: 8px;
+  margin-top: 1rem;
 }

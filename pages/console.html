@@ -18,8 +18,7 @@
       rel="stylesheet"
       href="../assets/css/cabecalho/nav/nav-container.css"
     />
-    <link rel="stylesheet" href="../assets/css/cabecalho/nav/nav-logo.css" />
-    <link rel="stylesheet" href="../assets/css/cabecalho/nav/nav-botao.css" />
+
     <link
       rel="stylesheet"
       href="../assets/css/cabecalho/nav/nav-pesquisar.css"
@@ -41,19 +40,21 @@
       href="../assets/css/consoleUnitario/consoleUnitario.css"
     />
 
+    <link rel="stylesheet" href="../assets/css/produtoUnitario/produtoUnitario.css">
     <link rel="stylesheet" href="../assets/css/rodape/rodape.css" />
 
     <link rel="stylesheet" href="../assets/css/rodape/copyright-rodape.css" />
     <link rel="stylesheet" href="../assets/css/rodape/fale-conosco.css" />
     <link rel="stylesheet" href="../assets/css/rodape/links-rodape.css" />
     <link rel="stylesheet" href="../assets/css/rodape/logo-rodape.css" />
+    <link rel="stylesheet" href="../assets/css/loginSessao/sessaoNavebar.css">
   </head>
   <body onload="criarConsole()">
     <script type="text/javascript" src="/console.js"></script>
     <script type="text/javascript" src="/produto.js"></script>
     <header class="cabecalho__container">
       <nav class="navbar">
-        <div class="nav__container">
+        <div class="nav__container">          
          
           <div class="nav-logo__imagem">
             <img
@@ -62,19 +63,22 @@
               alt="Logo Alura Geek"
             />
           </div>
-          <div class="nav-logo__pesquisar">
+        
+        </div>
+        <div class="nav-logo__pesquisar">
 
-            <input
-              class="nav__logo--pesquisar"
-              type="text"
-              placeholder="O que desesja encontrar? "
-            />
-          </div>
+          <input
+            class="nav__logo--pesquisar"
+            type="text"
+            placeholder="O que desesja encontrar? "
+          />
         </div>
       </nav>
     </header>
     <main class="container-consoles">
+      <button class="botao-menu" onclick="telaInicial()">Tela Inicial</button>
       <button class="botao-voltar" onclick="voltar()">Voltar</button>
+     
       <section class="console-unitario">
         <div id="imagem-container__unitario" class="imagem-container__unitario"></div>
 
