@@ -25,6 +25,7 @@
       href="../assets/css/cabecalho/nav/nav-pesquisar.css"
     />
     <link rel="stylesheet" href="../assets/css/base.css" />
+    <link rel="stylesheet" href="../assets/css/principal.css" />
 
     <link
       rel="stylesheet"
@@ -85,137 +86,143 @@
 
         <div id="diverso__dados" class="diverso__dados">
           <script>
-            const urlParams = new URLSearchParams(window.location.search)
-            const cardId = urlParams.get('id')
+            const urlParams = new URLSearchParams(window.location.search);
+            const cardId = urlParams.get("id");
 
-            const conteudoDiv = document.getElementById('diverso__dados')
+            const conteudoDiv = document.getElementById("diverso__dados");
             const conteudoImagem = document.getElementById(
-              'imagem-container__unitario'
-            )
+              "imagem-container__unitario"
+            );
             switch (cardId) {
-              case '1':
-                var exibirConsoleNome = document.createElement('p')
-                exibirConsoleNome.textContent = listaDiverso[0].nome
+              case "1":
+                var exibirConsoleNome = document.createElement("p");
+                exibirConsoleNome.textContent = listaDiverso[0].nome;
 
-                var exibirConsolePreco = document.createElement('p')
-                exibirConsolePreco.textContent = 'R$ ' + listaDiverso[0].preco
+                var exibirConsolePreco = document.createElement("p");
+                exibirConsolePreco.textContent =
+                  "R$ " + listaDiverso[0].preco + ",00";
 
-                var exibirDiversoImagem = document.createElement('img')
-                exibirDiversoImagem.src = listaDiverso[0].imagem
+                var exibirDiversoImagem = document.createElement("img");
+                exibirDiversoImagem.src = listaDiverso[0].imagem;
 
-                var exibirDiversoDescricao = document.createElement('p')
-                exibirDiversoDescricao.textContent = listaDiverso[0].descricao
+                var exibirDiversoDescricao = document.createElement("p");
+                exibirDiversoDescricao.textContent = listaDiverso[0].descricao;
 
-                conteudoImagem.appendChild(exibirDiversoImagem)
-                conteudoDiv.appendChild(exibirConsoleNome)
-                conteudoDiv.appendChild(exibirConsolePreco)
-                conteudoDiv.appendChild(exibirDiversoDescricao)
+                conteudoImagem.appendChild(exibirDiversoImagem);
+                conteudoDiv.appendChild(exibirConsoleNome);
+                conteudoDiv.appendChild(exibirConsolePreco);
+                conteudoDiv.appendChild(exibirDiversoDescricao);
 
-                break
+                break;
 
-              case '2':
-                var exibirConsoleNome = document.createElement('p')
-                exibirConsoleNome.textContent = listaDiverso[1].nome
+              case "2":
+                var exibirConsoleNome = document.createElement("p");
+                exibirConsoleNome.textContent = listaDiverso[1].nome;
 
-                var exibirConsolePreco = document.createElement('p')
-                exibirConsolePreco.textContent = 'R$ ' + listaDiverso[1].preco
+                var exibirConsolePreco = document.createElement("p");
+                exibirConsolePreco.textContent =
+                  "R$ " + listaDiverso[1].preco + ",00";
 
-                var exibirDiversoImagem = document.createElement('img')
-                exibirDiversoImagem.src = listaDiverso[1].imagem
+                var exibirDiversoImagem = document.createElement("img");
+                exibirDiversoImagem.src = listaDiverso[1].imagem;
 
-                var exibirDiversoDescricao = document.createElement('p')
-                exibirDiversoDescricao.textContent = listaDiverso[1].descricao
+                var exibirDiversoDescricao = document.createElement("p");
+                exibirDiversoDescricao.textContent = listaDiverso[1].descricao;
 
-                conteudoImagem.appendChild(exibirDiversoImagem)
-                conteudoDiv.appendChild(exibirConsoleNome)
-                conteudoDiv.appendChild(exibirConsolePreco)
-                conteudoDiv.appendChild(exibirDiversoDescricao)
+                conteudoImagem.appendChild(exibirDiversoImagem);
+                conteudoDiv.appendChild(exibirConsoleNome);
+                conteudoDiv.appendChild(exibirConsolePreco);
+                conteudoDiv.appendChild(exibirDiversoDescricao);
 
-                break
+                break;
 
-              case '3':
-                var exibirConsoleNome = document.createElement('p')
-                exibirConsoleNome.textContent = listaDiverso[2].nome
+              case "3":
+                var exibirConsoleNome = document.createElement("p");
+                exibirConsoleNome.textContent = listaDiverso[2].nome;
 
-                var exibirConsolePreco = document.createElement('p')
-                exibirConsolePreco.textContent = 'R$ ' + listaDiverso[2].preco
+                var exibirConsolePreco = document.createElement("p");
+                exibirConsolePreco.textContent =
+                  "R$ " + listaDiverso[2].preco + ",00";
 
-                var exibirDiversoImagem = document.createElement('img')
-                exibirDiversoImagem.src = listaDiverso[2].imagem
+                var exibirDiversoImagem = document.createElement("img");
+                exibirDiversoImagem.src = listaDiverso[2].imagem;
 
-                var exibirDiversoDescricao = document.createElement('p')
-                exibirDiversoDescricao.textContent = listaDiverso[2].descricao
+                var exibirDiversoDescricao = document.createElement("p");
+                exibirDiversoDescricao.textContent = listaDiverso[2].descricao;
 
-                conteudoImagem.appendChild(exibirDiversoImagem)
-                conteudoDiv.appendChild(exibirConsoleNome)
-                conteudoDiv.appendChild(exibirConsolePreco)
-                conteudoDiv.appendChild(exibirDiversoDescricao)
+                conteudoImagem.appendChild(exibirDiversoImagem);
+                conteudoDiv.appendChild(exibirConsoleNome);
+                conteudoDiv.appendChild(exibirConsolePreco);
+                conteudoDiv.appendChild(exibirDiversoDescricao);
 
-                break
+                break;
 
-              case '4':
-                var exibirConsoleNome = document.createElement('p')
-                exibirConsoleNome.textContent = listaDiverso[3].nome
+              case "4":
+                var exibirConsoleNome = document.createElement("p");
+                exibirConsoleNome.textContent = listaDiverso[3].nome;
 
-                var exibirConsolePreco = document.createElement('p')
-                exibirConsolePreco.textContent = 'R$ ' + listaDiverso[3].preco
+                var exibirConsolePreco = document.createElement("p");
+                exibirConsolePreco.textContent =
+                  "R$ " + listaDiverso[3].preco + ",00";
 
-                var exibirDiversoImagem = document.createElement('img')
-                exibirDiversoImagem.src = listaDiverso[3].imagem
+                var exibirDiversoImagem = document.createElement("img");
+                exibirDiversoImagem.src = listaDiverso[3].imagem;
 
-                var exibirDiversoDescricao = document.createElement('p')
-                exibirDiversoDescricao.textContent = listaDiverso[3].descricao
+                var exibirDiversoDescricao = document.createElement("p");
+                exibirDiversoDescricao.textContent = listaDiverso[3].descricao;
 
-                conteudoImagem.appendChild(exibirDiversoImagem)
-                conteudoDiv.appendChild(exibirConsoleNome)
-                conteudoDiv.appendChild(exibirConsolePreco)
-                conteudoDiv.appendChild(exibirDiversoDescricao)
+                conteudoImagem.appendChild(exibirDiversoImagem);
+                conteudoDiv.appendChild(exibirConsoleNome);
+                conteudoDiv.appendChild(exibirConsolePreco);
+                conteudoDiv.appendChild(exibirDiversoDescricao);
 
-                break
+                break;
 
-              case '5':
-                var exibirConsoleNome = document.createElement('p')
-                exibirConsoleNome.textContent = listaDiverso[4].nome
+              case "5":
+                var exibirConsoleNome = document.createElement("p");
+                exibirConsoleNome.textContent = listaDiverso[4].nome;
 
-                var exibirConsolePreco = document.createElement('p')
-                exibirConsolePreco.textContent = 'R$ ' + listaDiverso[4].preco
+                var exibirConsolePreco = document.createElement("p");
+                exibirConsolePreco.textContent =
+                  "R$ " + listaDiverso[4].preco + ",00";
 
-                var exibirDiversoImagem = document.createElement('img')
-                exibirDiversoImagem.src = listaDiverso[4].imagem
+                var exibirDiversoImagem = document.createElement("img");
+                exibirDiversoImagem.src = listaDiverso[4].imagem;
 
-                var exibirDiversoDescricao = document.createElement('p')
-                exibirDiversoDescricao.textContent = listaDiverso[4].descricao
+                var exibirDiversoDescricao = document.createElement("p");
+                exibirDiversoDescricao.textContent = listaDiverso[4].descricao;
 
-                conteudoImagem.appendChild(exibirDiversoImagem)
-                conteudoDiv.appendChild(exibirConsoleNome)
-                conteudoDiv.appendChild(exibirConsolePreco)
-                conteudoDiv.appendChild(exibirDiversoDescricao)
+                conteudoImagem.appendChild(exibirDiversoImagem);
+                conteudoDiv.appendChild(exibirConsoleNome);
+                conteudoDiv.appendChild(exibirConsolePreco);
+                conteudoDiv.appendChild(exibirDiversoDescricao);
 
-                break
+                break;
 
-              case '6':
-                var exibirConsoleNome = document.createElement('p')
-                exibirConsoleNome.textContent = listaDiverso[5].nome
+              case "6":
+                var exibirConsoleNome = document.createElement("p");
+                exibirConsoleNome.textContent = listaDiverso[5].nome;
 
-                var exibirConsolePreco = document.createElement('p')
-                exibirConsolePreco.textContent = 'R$ ' + listaDiverso[5].preco
+                var exibirConsolePreco = document.createElement("p");
+                exibirConsolePreco.textContent =
+                  "R$ " + listaDiverso[5].preco + ",00";
 
-                var exibirDiversoImagem = document.createElement('img')
-                exibirDiversoImagem.src = listaDiverso[5].imagem
+                var exibirDiversoImagem = document.createElement("img");
+                exibirDiversoImagem.src = listaDiverso[5].imagem;
 
-                var exibirDiversoDescricao = document.createElement('p')
-                exibirDiversoDescricao.textContent = listaDiverso[5].descricao
+                var exibirDiversoDescricao = document.createElement("p");
+                exibirDiversoDescricao.textContent = listaDiverso[5].descricao;
 
-                conteudoImagem.appendChild(exibirDiversoImagem)
-                conteudoDiv.appendChild(exibirConsoleNome)
-                conteudoDiv.appendChild(exibirConsolePreco)
-                conteudoDiv.appendChild(exibirDiversoDescricao)
+                conteudoImagem.appendChild(exibirDiversoImagem);
+                conteudoDiv.appendChild(exibirConsoleNome);
+                conteudoDiv.appendChild(exibirConsolePreco);
+                conteudoDiv.appendChild(exibirDiversoDescricao);
 
-                break
+                break;
 
               default:
-                cardContentElement.innerText = 'Produto não encontrado'
-                break
+                cardContentElement.innerText = "Produto não encontrado";
+                break;
             }
           </script>
         </div>
@@ -282,21 +289,21 @@
     <script type="text/javascript" src="/vanilla-tilt.js"></script>
 
     <script>
-      VanillaTilt.init(document.querySelectorAll('.produto__imagem'), {
+      VanillaTilt.init(document.querySelectorAll(".produto__imagem"), {
         max: 25,
         speed: 400,
-        glare: true
-      })
-      VanillaTilt.init(document.querySelectorAll('.console__imagem'), {
+        glare: true,
+      });
+      VanillaTilt.init(document.querySelectorAll(".console__imagem"), {
         max: 25,
         speed: 400,
-        glare: true
-      })
-      VanillaTilt.init(document.querySelectorAll('.diverso__imagem'), {
+        glare: true,
+      });
+      VanillaTilt.init(document.querySelectorAll(".diverso__imagem"), {
         max: 25,
         speed: 400,
-        glare: true
-      })
+        glare: true,
+      });
     </script>
   </body>
 </html>

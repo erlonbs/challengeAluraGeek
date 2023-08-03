@@ -136,3 +136,43 @@
  
   margin-top: 1rem;
 }
+
+
+
+@media (max-width: 768px){
+
+.produto-unitario{
+  width: 762px;
+  height: 221px;
+ justify-content: space-around;
+}
+
+  .imagem-container__unitario {
+    width: 264px;
+    height: 157px;
+  }
+
+  .imagem-container__unitario img {
+    width: 250px;
+    height: 152px;
+  }
+
+  .produto__dados{
+    height: 155px;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .produto__dados p:nth-child(1) {
+    font-size: 20px;
+    color: #464646;
+  }
+  
+  .produto__dados p:nth-child(2) {
+    font-size: 32px;
+    font-weight: 500;
+   
+  }
+  
+
+  }

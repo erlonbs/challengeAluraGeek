@@ -1,18 +1,17 @@
-.linha__produtos {
+.linha-consoles {
   display: flex; 
   flex-direction: column;
   justify-content: space-between;
   padding: 0;
   gap: 16px;
 
-  height: 306px;
+ 
 }
 
-
-
 @media (max-width: 360px) {
-  .linha__produtos{
-  padding: 1rem;
+  .linha-consoles{
+
    height: 550px;
+
   }
 }

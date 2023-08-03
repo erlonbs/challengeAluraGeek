@@ -6,3 +6,18 @@
   color: white;
 
 }
+
+
+  @media (max-width: 360px){
+
+
+
+    .banner__titulo{
+      display: flex;
+
+      align-items: center;
+     font-size: 22px;   
+      
+    }
+    }
+  

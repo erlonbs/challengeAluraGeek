@@ -2,8 +2,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
- 
- 
 }
 
 .lista__diversos {
@@ -16,12 +14,29 @@
   margin-left: 1rem;
 }
 
-.diverso__preco{
-  font-weight: 700; 
-
+.diverso__preco {
+  font-weight: 700;
 }
 
-.diverso__ver{
-  color: #2A7AE4;
+.diverso__ver {
+  color: #2a7ae4;
   font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .lista__diversos {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 225px;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 360px) {
+  .lista__diversos {
+    height: 460px;
+  }
+  .lista__diversos img {
+    width: 156px;
+  }
 }

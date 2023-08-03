@@ -1,13 +1,9 @@
 .topo__produtos {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-between;
   align-content: baseline;
   flex-direction: row;
-  
-  margin-top: 2rem;
-  
-
- 
+  padding: 1rem;
 }
 
 .topo__produtos .topo__produtos--titulo {
@@ -16,15 +12,40 @@
   font-weight: 700;
   line-height: 38px;
   color: #464646;
-
- 
 }
 
 .topo__produtos .topo__produtos--botao {
-  
   display: flex;
   align-items: center;
-  color: #2A7AE4;
+  color: #2a7ae4;
   font-weight: 700;
+}
 
+.topo__produtos .topo__produtos--botao:hover{
+  cursor: pointer;
+} 
+
+@media (max-width: 768px) {
+  .topo__produtos {
+    
+    align-items: center;
+    margin-left: 0.8rem;
+    margin-right: 2rem;
+
+    display: flex;
+  }
+
+  
+}
+
+@media (max-width: 360px) {
+  .topo__produtos .topo__produtos--titulo {
+    font-size: 22px;
+  }
+
+  .topo__produtos--botao{
+    font-size: 14px;
+  }
+
+ 
 }

@@ -5,3 +5,18 @@
   line-height: 26px;
   
 }
+
+
+@media (max-width: 360px){
+
+
+
+  .banner__descricao{
+
+   font-size: 14px;   
+   
+
+
+    
+  }
+  }

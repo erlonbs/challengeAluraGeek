@@ -8,8 +8,10 @@ justify-content: space-around;
 
 .lista__produtos {
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 2%;
   gap: 10px;
+
 }
 
 .lista__produtos li{
@@ -27,3 +29,35 @@ justify-content: space-around;
   font-weight: 700;
 }
 
+@media (max-width: 768px){
+
+  .lista__produtos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 225px;
+    overflow: hidden;
+  }
+
+  
+
+  }
+
+  @media (max-width: 360px){
+
+    .lista__produtos {
+      height: 460px;
+      
+    }
+    .lista__produtos img{
+      width: 156px;
+          
+     
+    }
+  
+    
+    }
+
+    
+  
+    

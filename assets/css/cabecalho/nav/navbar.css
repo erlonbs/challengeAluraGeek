@@ -4,6 +4,16 @@
   flex-direction: column;
 
  height: 115px;
+
  
 }
  
+
+@media (max-width: 360px){
+
+
+  .navbar{
+   height: 72px;
+  }
+
+}

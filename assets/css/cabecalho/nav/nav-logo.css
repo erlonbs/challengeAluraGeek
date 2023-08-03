@@ -7,3 +7,18 @@
   padding: 0;
   gap: 2px;
 }
+
+
+@media (max-width: 360px){
+
+
+  .nav__logo{
+    width: 100px;
+    height: 28px;
+  }
+
+ .nav__logo--logo {
+  width: 133px;
+
+ }
+}

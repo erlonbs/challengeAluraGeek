@@ -15,3 +15,15 @@
   justify-content: center;
   align-items: center;
 }
+
+
+@media (max-width: 360px){
+
+
+  .nav__login{
+    width: 133px;
+    height: 40px;
+    align-items: center;
+  }
+
+}

@@ -3,7 +3,7 @@ var listaDiverso = [];
 
 
 diverso1 = {
-  id:1,
+  id: 1,
   imagem: "../assets/images/diverso1.png",
 
   nome: "Camisa Atari",
@@ -12,7 +12,7 @@ diverso1 = {
 }
 
 diverso2 = {
-  id:2,
+  id: 2,
   imagem: "../assets/images/diverso2.png",
 
   nome: "Camisa SNES",
@@ -21,7 +21,7 @@ diverso2 = {
 }
 
 diverso3 = {
-  id:3,
+  id: 3,
   imagem: "../assets/images/diverso3.png",
 
   nome: "Controle e console XYZ",
@@ -30,7 +30,7 @@ diverso3 = {
 }
 
 diverso4 = {
-  id:4,
+  id: 4,
   imagem: "../assets/images/diverso4.png",
 
   nome: "Controle e console XYZ",
@@ -39,7 +39,7 @@ diverso4 = {
 }
 
 diverso5 = {
-  id:5,
+  id: 5,
   imagem: "../assets/images/diverso5.png",
 
   nome: "Controle e console XYZ",
@@ -48,7 +48,7 @@ diverso5 = {
 }
 
 diverso6 = {
-  id:6,
+  id: 6,
   imagem: "../assets/images/diverso6.png",
 
   nome: "Produto",
@@ -80,13 +80,13 @@ function criarDiverso() {
 
     var nome = document.createElement("p");
     nome.textContent = listaDiverso[i].nome;
-    nome.style.margin=0;
+    nome.style.margin = 0;
     item.appendChild(nome);
 
-    var preco = document.createElement("p");   
-    preco.textContent = "R$ " + listaDiverso[i].preco+",00";
-    preco.style.fontWeight='700';
-    preco.style.margin=0;
+    var preco = document.createElement("p");
+    preco.textContent = "R$ " + listaDiverso[i].preco + ",00";
+    preco.style.fontWeight = '700';
+    preco.style.margin = 0;
     item.appendChild(preco);
 
     container.appendChild(item);
@@ -94,11 +94,11 @@ function criarDiverso() {
 
     verDiverso.innerHTML = "Ver produto ";
     verDiverso.textContent = "Ver produto ";
-    verDiverso.style.color ='#2A7AE4';
-    verDiverso.style.fontWeight ='700';
+    verDiverso.style.color = '#2A7AE4';
+    verDiverso.style.fontWeight = '700';
     verDiverso.href = "/pages/diverso.html?id=" + listaDiverso[i].id;
-    verDiverso.style.textDecorationLine='none';
-
+    verDiverso.style.textDecorationLine = 'none';
+   
     item.appendChild(verDiverso);
 
     container.appendChild(item);

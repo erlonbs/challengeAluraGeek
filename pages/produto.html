@@ -25,6 +25,7 @@
       href="../assets/css/cabecalho/nav/nav-pesquisar.css"
     />
     <link rel="stylesheet" href="../assets/css/base.css" />
+    <link rel="stylesheet" href="../assets/css/principal.css" />
 
     <link
       rel="stylesheet"
@@ -59,7 +60,6 @@
             src="../assets/icons/Logo.svg"
             alt="Logo Alura Geek"
           />
-         
         </div>
         <div class="nav__container">
           <input
@@ -81,138 +81,138 @@
         ></div>
         <div id="produto__dados" class="produto__dados">
           <script>
-            const urlParams = new URLSearchParams(window.location.search)
-            const cardId = urlParams.get('id')
+            const urlParams = new URLSearchParams(window.location.search);
+            const cardId = urlParams.get("id");
 
-            const conteudoDiv = document.getElementById('produto__dados')
+            const conteudoDiv = document.getElementById("produto__dados");
             const conteudoImagem = document.getElementById(
-              'imagem-container__unitario'
-            )
+              "imagem-container__unitario"
+            );
 
             switch (cardId) {
-              case '1':
-                var exibirProdutoNome = document.createElement('p')
-                exibirProdutoNome.textContent = 'Nome: ' + listaProduto[0].nome
+              case "1":
+                var exibirProdutoNome = document.createElement("p");
+                exibirProdutoNome.textContent = "Nome: " + listaProduto[0].nome;
 
-                var exibirProdutoPreco = document.createElement('p')
+                var exibirProdutoPreco = document.createElement("p");
                 exibirProdutoPreco.textContent =
-                  'Preço: ' + listaProduto[0].preco
+                  "Preço: " + listaProduto[0].preco + ",00";
 
-                var exibirProdutoImagem = document.createElement('img')
-                exibirProdutoImagem.src = listaProduto[0].imagem
+                var exibirProdutoImagem = document.createElement("img");
+                exibirProdutoImagem.src = listaProduto[0].imagem;
 
-                var exibirProdutoDescricao = document.createElement('p')
-                exibirProdutoDescricao.textContent = listaProduto[0].descricao
+                var exibirProdutoDescricao = document.createElement("p");
+                exibirProdutoDescricao.textContent = listaProduto[0].descricao;
 
-                conteudoImagem.appendChild(exibirProdutoImagem)
-                conteudoDiv.appendChild(exibirProdutoNome)
-                conteudoDiv.appendChild(exibirProdutoPreco)
-                conteudoDiv.appendChild(exibirProdutoDescricao)
-                break
+                conteudoImagem.appendChild(exibirProdutoImagem);
+                conteudoDiv.appendChild(exibirProdutoNome);
+                conteudoDiv.appendChild(exibirProdutoPreco);
+                conteudoDiv.appendChild(exibirProdutoDescricao);
+                break;
 
-              case '2':
-                var exibirProdutoNome = document.createElement('p')
-                exibirProdutoNome.textContent = 'Nome: ' + listaProduto[1].nome
+              case "2":
+                var exibirProdutoNome = document.createElement("p");
+                exibirProdutoNome.textContent = "Nome: " + listaProduto[1].nome;
 
-                var exibirProdutoPreco = document.createElement('p')
+                var exibirProdutoPreco = document.createElement("p");
                 exibirProdutoPreco.textContent =
-                  'Preço: ' + listaProduto[1].preco
+                  "Preço: " + listaProduto[1].preco + ",00";
 
-                var exibirProdutoImagem = document.createElement('img')
-                exibirProdutoImagem.src = listaProduto[1].imagem
+                var exibirProdutoImagem = document.createElement("img");
+                exibirProdutoImagem.src = listaProduto[1].imagem;
 
-                var exibirProdutoDescricao = document.createElement('p')
-                exibirProdutoDescricao.textContent = listaProduto[1].descricao
+                var exibirProdutoDescricao = document.createElement("p");
+                exibirProdutoDescricao.textContent = listaProduto[1].descricao;
 
-                conteudoImagem.appendChild(exibirProdutoImagem)
-                conteudoDiv.appendChild(exibirProdutoNome)
-                conteudoDiv.appendChild(exibirProdutoPreco)
-                conteudoDiv.appendChild(exibirProdutoDescricao)
-                break
+                conteudoImagem.appendChild(exibirProdutoImagem);
+                conteudoDiv.appendChild(exibirProdutoNome);
+                conteudoDiv.appendChild(exibirProdutoPreco);
+                conteudoDiv.appendChild(exibirProdutoDescricao);
+                break;
 
-              case '3':
-                var exibirProdutoNome = document.createElement('p')
-                exibirProdutoNome.textContent = 'Nome: ' + listaProduto[2].nome
+              case "3":
+                var exibirProdutoNome = document.createElement("p");
+                exibirProdutoNome.textContent = "Nome: " + listaProduto[2].nome;
 
-                var exibirProdutoPreco = document.createElement('p')
+                var exibirProdutoPreco = document.createElement("p");
                 exibirProdutoPreco.textContent =
-                  'Preço: ' + listaProduto[2].preco
+                  "Preço: " + listaProduto[2].preco + ",00";
 
-                var exibirProdutoImagem = document.createElement('img')
-                exibirProdutoImagem.src = listaProduto[2].imagem
+                var exibirProdutoImagem = document.createElement("img");
+                exibirProdutoImagem.src = listaProduto[2].imagem;
 
-                var exibirProdutoDescricao = document.createElement('p')
-                exibirProdutoDescricao.textContent = listaProduto[2].descricao
+                var exibirProdutoDescricao = document.createElement("p");
+                exibirProdutoDescricao.textContent = listaProduto[2].descricao;
 
-                conteudoImagem.appendChild(exibirProdutoImagem)
-                conteudoDiv.appendChild(exibirProdutoNome)
-                conteudoDiv.appendChild(exibirProdutoPreco)
-                conteudoDiv.appendChild(exibirProdutoDescricao)
-                break
+                conteudoImagem.appendChild(exibirProdutoImagem);
+                conteudoDiv.appendChild(exibirProdutoNome);
+                conteudoDiv.appendChild(exibirProdutoPreco);
+                conteudoDiv.appendChild(exibirProdutoDescricao);
+                break;
 
-              case '4':
-                var exibirProdutoNome = document.createElement('p')
-                exibirProdutoNome.textContent = 'Nome: ' + listaProduto[3].nome
+              case "4":
+                var exibirProdutoNome = document.createElement("p");
+                exibirProdutoNome.textContent = "Nome: " + listaProduto[3].nome;
 
-                var exibirProdutoPreco = document.createElement('p')
+                var exibirProdutoPreco = document.createElement("p");
                 exibirProdutoPreco.textContent =
-                  'Preço: ' + listaProduto[3].preco
+                  "Preço: " + listaProduto[3].preco + ",00";
 
-                var exibirProdutoImagem = document.createElement('img')
-                exibirProdutoImagem.src = listaProduto[3].imagem
+                var exibirProdutoImagem = document.createElement("img");
+                exibirProdutoImagem.src = listaProduto[3].imagem;
 
-                var exibirProdutoDescricao = document.createElement('p')
-                exibirProdutoDescricao.textContent = listaProduto[3].descricao
+                var exibirProdutoDescricao = document.createElement("p");
+                exibirProdutoDescricao.textContent = listaProduto[3].descricao;
 
-                conteudoImagem.appendChild(exibirProdutoImagem)
-                conteudoDiv.appendChild(exibirProdutoNome)
-                conteudoDiv.appendChild(exibirProdutoPreco)
-                conteudoDiv.appendChild(exibirProdutoDescricao)
-                break
+                conteudoImagem.appendChild(exibirProdutoImagem);
+                conteudoDiv.appendChild(exibirProdutoNome);
+                conteudoDiv.appendChild(exibirProdutoPreco);
+                conteudoDiv.appendChild(exibirProdutoDescricao);
+                break;
 
-              case '5':
-                var exibirProdutoNome = document.createElement('p')
-                exibirProdutoNome.textContent = 'Nome: ' + listaProduto[4].nome
+              case "5":
+                var exibirProdutoNome = document.createElement("p");
+                exibirProdutoNome.textContent = "Nome: " + listaProduto[4].nome;
 
-                var exibirProdutoPreco = document.createElement('p')
+                var exibirProdutoPreco = document.createElement("p");
                 exibirProdutoPreco.textContent =
-                  'Preço: ' + listaProduto[4].preco
+                  "Preço: " + listaProduto[4].preco + ",00";
 
-                var exibirProdutoImagem = document.createElement('img')
-                exibirProdutoImagem.src = listaProduto[4].imagem
+                var exibirProdutoImagem = document.createElement("img");
+                exibirProdutoImagem.src = listaProduto[4].imagem;
 
-                var exibirProdutoDescricao = document.createElement('p')
-                exibirProdutoDescricao.textContent = listaProduto[4].descricao
+                var exibirProdutoDescricao = document.createElement("p");
+                exibirProdutoDescricao.textContent = listaProduto[4].descricao;
 
-                conteudoImagem.appendChild(exibirProdutoImagem)
-                conteudoDiv.appendChild(exibirProdutoNome)
-                conteudoDiv.appendChild(exibirProdutoPreco)
-                conteudoDiv.appendChild(exibirProdutoDescricao)
-                break
+                conteudoImagem.appendChild(exibirProdutoImagem);
+                conteudoDiv.appendChild(exibirProdutoNome);
+                conteudoDiv.appendChild(exibirProdutoPreco);
+                conteudoDiv.appendChild(exibirProdutoDescricao);
+                break;
 
-              case '6':
-                var exibirProdutoNome = document.createElement('p')
-                exibirProdutoNome.textContent = 'Nome: ' + listaProduto[5].nome
+              case "6":
+                var exibirProdutoNome = document.createElement("p");
+                exibirProdutoNome.textContent = "Nome: " + listaProduto[5].nome;
 
-                var exibirProdutoPreco = document.createElement('p')
+                var exibirProdutoPreco = document.createElement("p");
                 exibirProdutoPreco.textContent =
-                  'Preço: ' + listaProduto[5].preco
+                  "Preço: " + listaProduto[5].preco + ",00";
 
-                var exibirProdutoImagem = document.createElement('img')
-                exibirProdutoImagem.src = listaProduto[5].imagem
+                var exibirProdutoImagem = document.createElement("img");
+                exibirProdutoImagem.src = listaProduto[5].imagem;
 
-                var exibirProdutoDescricao = document.createElement('p')
-                exibirProdutoDescricao.textContent = listaProduto[5].descricao
+                var exibirProdutoDescricao = document.createElement("p");
+                exibirProdutoDescricao.textContent = listaProduto[5].descricao;
 
-                conteudoImagem.appendChild(exibirProdutoImagem)
-                conteudoDiv.appendChild(exibirProdutoNome)
-                conteudoDiv.appendChild(exibirProdutoPreco)
-                conteudoDiv.appendChild(exibirProdutoDescricao)
-                break
+                conteudoImagem.appendChild(exibirProdutoImagem);
+                conteudoDiv.appendChild(exibirProdutoNome);
+                conteudoDiv.appendChild(exibirProdutoPreco);
+                conteudoDiv.appendChild(exibirProdutoDescricao);
+                break;
 
               default:
-                cardContentElement.innerText = 'Produto não encontrado'
-                break
+                cardContentElement.innerText = "Produto não encontrado";
+                break;
             }
           </script>
         </div>
@@ -279,21 +279,21 @@
     <script type="text/javascript" src="/vanilla-tilt.js"></script>
 
     <script>
-      VanillaTilt.init(document.querySelectorAll('.produto__imagem'), {
+      VanillaTilt.init(document.querySelectorAll(".produto__imagem"), {
         max: 25,
         speed: 400,
-        glare: true
-      })
-      VanillaTilt.init(document.querySelectorAll('.console__imagem'), {
+        glare: true,
+      });
+      VanillaTilt.init(document.querySelectorAll(".console__imagem"), {
         max: 25,
         speed: 400,
-        glare: true
-      })
-      VanillaTilt.init(document.querySelectorAll('.diverso__imagem'), {
+        glare: true,
+      });
+      VanillaTilt.init(document.querySelectorAll(".diverso__imagem"), {
         max: 25,
         speed: 400,
-        glare: true
-      })
+        glare: true,
+      });
     </script>
   </body>
 </html>

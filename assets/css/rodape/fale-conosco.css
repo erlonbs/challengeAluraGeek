@@ -1,67 +1,128 @@
 .container-fale-conosco {
-    display: flex;
-    flex-direction: row;
-    background-color: #EAF2FD;
-    background-size:contain;
-    justify-content: space-around;
-    align-items: center;    
-    height: 368px;
+  display: flex;
+  flex-direction: row;
+  background-color: #eaf2fd;
+  background-size: contain;
+  justify-content: space-around;
+  align-items: center;
+  height: 368px;
 }
 
-.fale-conosco__formulario{
-    display: flex;
-    flex-direction: column;
-    
-    
+.fale-conosco__formulario {
+  display: flex;
+  flex-direction: column;
 }
 
 .container-fale-conosco .footer-logo {
-   align-self: flex-start;
-    padding-top: 4rem;
+  align-self: flex-start;
+  padding-top: 4rem;
 }
 
-
 .fale-conosco {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    height: 240px;
-  
+  height: 240px;
 }
 
 .fale__conosco--titulo {
-    font-family: --raleway;
-    font-weight: 700;
-    font-size: 1rem;
-    line-height: 18.78px;
-    margin-bottom: 0.5rem;
+  font-family: --raleway;
+  color:  #464646;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 18.78px;
+  margin-bottom: 0.5rem;
 }
 
 .fale__conosco--nome {
-    width: 560px;
-    height: 56px;
-    gap: 8px;
-    margin-bottom: 0.5rem;
-    
+  width: 560px;
+  height: 56px;
+  gap: 8px;
+  margin-bottom: 0.5rem;
 }
 
 .fale__conosco--mensagem {
-    width: 560px;
-    height: 82px;
-    gap: 8px;
-    margin-bottom: 0.5rem;
+  width: 560px;
+  height: 82px;
+  gap: 8px;
+  margin-bottom: 0.5rem;
 }
 
 .fale__conosco--botao {
-    width: 165px;
-    height: 51px;
-    padding: 16px;
+  width: 165px;
+  height: 51px;
+  padding: 16px;
 
-    background-color: #2A7AE4;
-    font-family: --raleway;
-    color: white;
-    font-weight: 400;
-    size: 1rem;
-    line-height: 18.78px;
+  background-color: #2a7ae4;
+  font-family: --raleway;
+  color: white;
+  font-weight: 400;
+  size: 1rem;
+  line-height: 18.78px;
+}
+
+.fale__conosco--botao:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .container-fale-conosco {
+    display: grid;
+    grid-template-columns: 5% auto 1fr;
+  }
+
+  .fale-conosco {
+    width: 434px;
+    padding: 2rem;
+  }
+  .fale-conosco .fale__conosco--nome {
+    width: 434px;
+  }
+  .fale-conosco .fale__conosco--mensagem {
+    width: 434px;
+  }
+}
+
+@media (max-width: 360px) {
+
+  .container-fale-conosco {
+    display:flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    padding: 0;
+    height: 650px;
+   
+  }
+ 
+
+.fale-conosco {
+  gap: 32px;
+  width: 328px;
+  
+}
+
+.fale-conosco {
+  align-items: center;
+    width: 434px;
+    padding: 2rem;
+  }
+  .fale-conosco .fale__conosco--nome {
+    width: 328px;
+    height: 40px;
+  }
+  .fale-conosco .fale__conosco--mensagem {
+    width: 328px;
+  }
+
+  .fale-conosco .fale__conosco--botao {
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    height: 40px;
+  justify-content: center;
+    
+    
+}
 
 }

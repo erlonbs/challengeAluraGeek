@@ -30,6 +30,7 @@
     />
     <link rel="stylesheet" href="./assets/css/cabecalho/banner/banner.css" />
     <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/principal.css">
 
     <link
       rel="stylesheet"
@@ -55,6 +56,7 @@
 
     <link rel="stylesheet" href="./assets/css/linhaConsoles/consoles.css" />
 
+    <link rel="stylesheet" href="./assets/css/linhaConsoles/linha-consoles.css">
     <link
       rel="stylesheet"
       href="./assets/css/linhaConsoles/topo-consoles.css"
@@ -94,12 +96,17 @@
             <img class="nav__logo--logo" src="./assets/icons/Logo.svg" alt="" />
             <input
               class="nav__logo--pesquisar"
+              
               type="text"
               placeholder="O que desesja encontrar? "
+              
             />
+            
           </div>
           <a href="/pages/login.html" class="nav__login">Login</a>
+          <a class="icon-lupa"></a>
         </div>
+       
       </nav>
       <div class="banner">
         <div class="banner__container">
@@ -129,7 +136,7 @@
     <main class="container-produtos">
       <section class="linha__produtos">
         <div class="topo__produtos">
-          <h1 class="topo__produtos--titulo">Star Wars</h1>
+          <p class="topo__produtos--titulo">Star Wars</p>
           
           <a href="/pages/produtos.html" class="topo__produtos--botao">
             Ver tudo<svg
@@ -234,7 +241,8 @@
         <div class="quem-somos">
           <a href="#">Quem somos</a>
           <a href="#">Política de privacidade</a>
-          <a href="#">programa fidelidade</a>
+          <a href="#">Programa fidelidade</a>
+          <a href="#">Nossas lojas</a>
           <a href="#">Quero ser franqueado</a>
           <a href="#">Anuncie aqui</a>
         </div>
@@ -279,23 +287,9 @@
     <script type="text/javascript" src="diverso.js"></script>
 
     <div id="imagem-container"></div>
-    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    
     <script>
-      VanillaTilt.init(document.querySelectorAll('.div__produtos:img'), {
-        max: 25,
-        speed: 400,
-        glare: true
-      })
-      VanillaTilt.init(document.querySelectorAll('.div__consoles'), {
-        max: 25,
-        speed: 400,
-        glare: true
-      })
-      VanillaTilt.init(document.querySelectorAll('.diverso__imagem'), {
-        max: 25,
-        speed: 400,
-        glare: true
-      })
+      
     </script>
   </body>
 </html>

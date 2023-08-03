@@ -1,4 +1,4 @@
-.linha-diversos{
+.todos-diversos{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -15,3 +15,35 @@
     gap: 10px;
 
 }
+
+
+@media (max-width: 768px) {
+    .lista__diversos {
+      flex-wrap: wrap;
+      overflow: hidden;
+      justify-content: flex-start;
+    
+    }
+    .lista__diversos img {
+      width: 164px;
+      
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .lista__diversos {
+    
+    width: 359px;
+
+    
+    }
+    .lista__diversos img {
+      width: 147px;
+      
+    }
+
+    .lista__diversos p {
+      font-size: 14px;
+    
+    }
+  }

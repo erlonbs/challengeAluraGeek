@@ -68,7 +68,7 @@ var listaConsole = [];
 
   function criarConsole(){
 
-  var container = document.getElementById("lista__consoles")
+  var container = document.getElementById("lista__consoles");
 
   for (i = 0; i < listaConsole.length; i++) {
     var item = document.createElement("div__consoles");
@@ -94,7 +94,7 @@ var listaConsole = [];
 
     var verConsole = document.createElement('a');
     
-    verConsole.innerHTML = "Ver produto"
+    verConsole.innerHTML = "Ver produto";
     verConsole.textContent = "Ver produto ";
     verConsole.style.color ='#2A7AE4';
     verConsole.style.fontWeight ='700';

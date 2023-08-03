@@ -1,18 +1,37 @@
-.linha-consoles{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-}   
-
-
-
-.lista__consoles {
-    display: flex;
-    flex-direction: row;
- align-items: center;
-  gap: 10px;
-
+.todos-consoles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
+.lista__consoles {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .lista__consoles {
+    flex-wrap: wrap;
+  }
+  .lista__consoles img {
+    width: 164px;
+  }
+}
+
+ 
+@media (max-width: 360px) {
+
+  .lista__consoles img {
+    width: 140px;
+    overflow: hidden;
+ 
+  }
+
+  .lista__consoles p {
+    font-size: 14px;
+  
+  }
+}

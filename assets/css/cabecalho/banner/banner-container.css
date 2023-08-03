@@ -3,6 +3,35 @@
   flex-direction: column;
  justify-content: space-around;
   align-items: flex-start;
-padding-left: 190px;
+  padding: 32px;
+
   gap: 16px;
 }
+
+
+@media (max-width: 768px){
+
+.banner__container {
+  justify-content: space-between;
+  font-size: 52px;
+  gap: 1rem;
+}
+
+}
+
+
+@media (max-width: 360px){
+  .banner__container{
+    display: flex;
+    padding: 16px;
+
+    
+   
+    
+  
+    background-size: cover;
+  }
+  }
+
+
+

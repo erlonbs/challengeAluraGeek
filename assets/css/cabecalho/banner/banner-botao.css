@@ -8,3 +8,21 @@
   font-family: var(--raleway);
   color: white;
 }
+
+.banner__botao:hover {
+cursor: pointer;
+}
+
+
+@media (max-width: 360px){
+
+  .banner__botao{
+   width: 115px;
+   height: 40px;
+   padding: 0;
+     
+  
+   
+  }
+  }
+
