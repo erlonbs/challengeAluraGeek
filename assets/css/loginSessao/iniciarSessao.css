@@ -30,3 +30,28 @@
   margin-top: 0.4rem;
   color: white;
 }
+
+
+
+@media (max-width: 360px){
+
+  .container-sessao{
+    width: 360px;
+  }
+
+  .sessao__formulario{
+    width: 275px;
+  }
+
+  .sessao__email{
+    width: 275px;
+  }
+
+  .sessao__senha{
+    width: 275px;
+  }
+
+  .sessao__botao{
+    width: 109px;
+  }
+}

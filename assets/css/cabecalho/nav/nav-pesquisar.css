@@ -15,6 +15,9 @@
 
 }
 
+
+
+
 @media (max-width: 360px){
 
 
@@ -22,10 +25,14 @@
     display: none ;
   }
 
-  .icon-lupa::before {
-    content: "\1F50D"; /* Código Unicode do ícone de lupa */
-    font-size: 24px; /* Define o tamanho do ícone */
+  .icon-lupa {
+    width: 18px;
+    height: 18px;
     
   }
 
+  .nav__lupa {
+    display: flex;
+  }
+  
 }

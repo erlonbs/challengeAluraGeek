@@ -143,4 +143,47 @@
     }
   
     }
+
+
+    @media (max-width: 360px){
+      .diverso-unitario{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 360px;
+        height: 320px;
+        
+      }
+  
+      .diverso__dados {
+        width: 360px;
+        height: 121px;
+      }
+  
+      .diverso__dados p {
+        font-size: 14px;
+      }
+  
+      .imagem-container__unitario {
+        width: 360px;
+  
+      }
+  
+      .imagem-container__unitario img  {
+        width: 350px;
+        height: 192px;
+        
+      }
+
+      
+
+      .lista__diversos {
+        height: 465px;
+      }
+
+      .lista__diversos img {
+        width: 156px;
+      }
+    }
   

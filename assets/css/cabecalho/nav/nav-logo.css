@@ -9,6 +9,11 @@
 }
 
 
+ .nav__lupa {
+  display: none;
+}
+
+
 @media (max-width: 360px){
 
 
@@ -21,4 +26,6 @@
   width: 133px;
 
  }
+
+
 }

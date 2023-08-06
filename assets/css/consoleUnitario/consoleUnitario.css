@@ -153,7 +153,46 @@
     
   
     }
-    @media (max-width: 360px){
-
    
-  }
+    
+    @media (max-width: 360px){
+      .console-unitario{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 360px;
+        height: 320px;
+        
+      }
+  
+      .console__dados {
+        width: 360px;
+        height: 121px;
+      }
+  
+      .console__dados p {
+        font-size: 14px;
+      }
+  
+      .imagem-container__unitario {
+        width: 360px;
+  
+      }
+  
+      .imagem-container__unitario img  {
+        width: 350px;
+        height: 192px;
+        
+      }
+
+      
+
+      .lista__consoles {
+        height: 465px;
+      }
+
+      .lista__consoles img {
+        width: 156px;
+      }
+    }

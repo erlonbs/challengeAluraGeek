@@ -5,10 +5,7 @@
 background-color: #ffffff;
 
  
-
-
 }
-
 
 
 @media (max-width: 360px){
@@ -17,7 +14,7 @@ background-color: #ffffff;
   .nav__container{
     width: 360px;
     align-items: center;
- justify-content: space-between;
+ justify-content: space-around;
 
   }
 
