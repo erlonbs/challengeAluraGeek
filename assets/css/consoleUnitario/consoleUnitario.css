@@ -156,6 +156,11 @@
    
     
     @media (max-width: 360px){
+
+.navbar {
+  justify-content: space-between;
+}
+
       .console-unitario{
         display: flex;
         flex-direction: column;
