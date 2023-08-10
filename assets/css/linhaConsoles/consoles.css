@@ -6,6 +6,7 @@
 
 .lista__consoles {
   display: flex;
+  margin-bottom: 2%;
   gap: 10px;
 }
 

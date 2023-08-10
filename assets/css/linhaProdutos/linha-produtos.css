@@ -8,11 +8,9 @@
   height: 306px;
 }
 
-
-
 @media (max-width: 360px) {
   .linha__produtos{
-  padding: 1rem;
+
    height: 550px;
   }
 }

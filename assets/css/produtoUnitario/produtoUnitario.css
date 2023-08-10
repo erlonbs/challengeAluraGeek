@@ -1,6 +1,7 @@
 .cabecalho__container {
    
     height: 100px; 
+    align-items: center;
    
   } 
 
@@ -9,7 +10,8 @@
     display: flex;
     width: 100%;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .nav-logo{
@@ -31,7 +33,9 @@
  
   }
   
-
+.nav__lupa{
+  display: none;
+}
 
   .container-produtos {
     display: flex;
@@ -188,7 +192,7 @@
       height: 72px;
     }
 
-    .icone-lupa {
+    .nav__lupa{
       display: flex;
     }
 
@@ -228,4 +232,18 @@
       height: 192px;
       
     }
+
+    .botao-menu {
+      width: 60px;
+      height: 30px;
+      font-size: 9px;
+    }
+  
+    .botao-voltar {
+      width: 60px;
+      height: 30px;
+      font-size: 9px;
+    }
+    
+
   }

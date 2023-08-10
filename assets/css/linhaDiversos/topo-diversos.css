@@ -1,13 +1,11 @@
 .topo__diversos {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   align-content: baseline;
   flex-direction: row;
-
   margin-top: 1rem;
   padding: 1rem;
-
- 
 }
 
 .topo__diversos .topo__diversos--titulo {
@@ -28,7 +26,6 @@
 
 @media (max-width: 768px) {
   .topo__diversos {
-  
     align-items: center;
     margin-left: 0.8rem;
     margin-right: 2rem;

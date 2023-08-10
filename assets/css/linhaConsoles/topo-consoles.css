@@ -1,12 +1,9 @@
 .topo__consoles {
   display: flex;
-  align-items: center;
+ 
   justify-content: space-between;
   align-content: baseline;
   flex-direction: row;
-
-  margin-top: 2rem;
-
   padding: 1rem;
 }
 
@@ -16,6 +13,7 @@
   font-weight: 700;
   line-height: 38px;
   color: #464646;
+
 }
 
 .topo__consoles .topo__consoles--botao {
@@ -28,7 +26,6 @@
 
 @media (max-width: 768px) {
   .topo__consoles {
-   
     align-items: center;
     margin-left: 0.8rem;
     margin-right: 2rem;
