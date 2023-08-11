@@ -3,6 +3,3 @@ function exibirOpcoesBotao() {
   opcoes__produtos.style.display = "block";
 }
 
-function redirecionarBotoes(){
-  
-}
