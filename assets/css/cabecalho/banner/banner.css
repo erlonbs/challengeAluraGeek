@@ -5,42 +5,28 @@
   justify-content: flex-end;
   align-items: flex-start;
   height: 382px;
-  
 
-  background-image: url('/assets/images/banner-image.png');
-  background-position:center;
- 
+  background-image: url('../assets/images/banner-image.png');
+  background-position: center;
+
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-@media (max-width: 768px){
-  .banner{   
- 
-   padding: 0;
-    
- 
+@media (max-width: 768px) {
+  .banner {
+    padding: 0;
   }
-.banner__container {
-  justify-content: s;
-  font-size: 52px;
-  gap: 1rem;
+  .banner__container {
+    justify-content: s;
+    font-size: 52px;
+    gap: 1rem;
+  }
 }
 
-
+@media (max-width: 360px) {
+  .banner {
+    width: 360px;
+    height: 192px;
+  }
 }
-
-
-
-@media (max-width: 360px){
-
-  .banner{
-  
-     
-width: 360px;
-height: 192px;
-
-   
-    
-  }
-  }
