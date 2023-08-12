@@ -2,7 +2,7 @@ var listaProduto = [];
 
 produto1 = {
   id: 1,
-  imagem: "./assets/images/starWars1.png",
+  imagem: "assets/images/starWars1.png",
 
   nome: "Produto XYZ",
   preco: 60.00,
@@ -12,7 +12,7 @@ produto1 = {
 
 produto2 = {
   id: 2,
-  imagem: "./assets/images/starWars2.png",
+  imagem: "assets/images/starWars2.png",
 
   nome: "Produto XYZ",
   preco: 60.00,
@@ -22,7 +22,7 @@ produto2 = {
 
 produto3 = {
   id: 3,
-  imagem: "./assets/images/starWars3.png",
+  imagem: "assets/images/starWars3.png",
 
   nome: "Produto XYZ",
   preco: 60.00,
@@ -32,7 +32,7 @@ produto3 = {
 
 produto4 = {
   id: 4,
-  imagem: "./assets/images/starWars4.png",
+  imagem: "assets/images/starWars4.png",
 
   nome: "Produto XYZ",
   preco: 60.00,
@@ -41,7 +41,7 @@ produto4 = {
 
 produto5 = {
   id: 5,
-  imagem: "./assets/images/starWars5.png",
+  imagem: "assets/images/starWars5.png",
 
   nome: "Produto XYZ",
   preco: 60.00,
@@ -50,7 +50,7 @@ produto5 = {
 
 produto6 = {
   id: 6,
-  imagem: "./assets/images/starWars6.png",
+  imagem: "assets/images/starWars6.png",
 
   nome: "Produto XYe",
   preco: 60.00,
