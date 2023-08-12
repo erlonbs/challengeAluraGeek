@@ -4,7 +4,7 @@ var listaConsole = [];
 
   console1 = {
     id:1,
-    imagem: "../assets/images/console1.png",
+    imagem: "assets/images/console1.png",
 
     nome: "Controle XYZ",
     preco: 60.00,
@@ -14,7 +14,7 @@ var listaConsole = [];
 
   console2 = {
     id:2,
-    imagem: "../assets/images/console2.png",
+    imagem: "assets/images/console2.png",
 
     nome: "Controle e console XYZ",
     preco: 60.00,
@@ -23,7 +23,7 @@ var listaConsole = [];
 
   console3 = {
     id:3,
-    imagem: "../assets/images/console3.png",
+    imagem: "assets/images/console3.png",
 
     nome: "Controle XYZ",
     preco: 60.00,
@@ -32,7 +32,7 @@ var listaConsole = [];
 
   console4 = {
     id:4,
-    imagem: "../assets/images/console4.png",
+    imagem: "assets/images/console4.png",
 
     nome: "Controle XYZ",
     preco: 60.00,
@@ -41,7 +41,7 @@ var listaConsole = [];
 
   console5 = {
     id:5,
-    imagem: "../assets/images/console5.png",
+    imagem: "assets/images/console5.png",
 
     nome: "Controle XYZ",
     preco: 60.00,
@@ -50,7 +50,7 @@ var listaConsole = [];
 
   console6 = {
     id:6,
-    imagem: "../assets/images/console6.png",
+    imagem: "assets/images/console6.png",
 
     nome: "Game Boy Color",
     preco: 60.00,
@@ -99,7 +99,7 @@ var listaConsole = [];
     verConsole.style.color ='#2A7AE4';
     verConsole.style.fontWeight ='700';
     verConsole.style.textDecorationLine='none';
-    verConsole.href = '/pages/console.html?id=' + listaConsole[i].id;
+    verConsole.href = './pages/console.html?id=' + listaConsole[i].id;
 
     item.appendChild(verConsole);
 
