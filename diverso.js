@@ -4,7 +4,7 @@ var listaDiverso = [];
 
 diverso1 = {
   id: 1,
-  imagem: "assets/images/diverso1.png",
+  imagem: "../assets/images/diverso1.png",
 
   nome: "Camisa Atari",
   preco: 60.00,
@@ -13,7 +13,7 @@ diverso1 = {
 
 diverso2 = {
   id: 2,
-  imagem: "assets/images/diverso2.png",
+  imagem: "../assets/images/diverso2.png",
 
   nome: "Camisa SNES",
   preco: 60.00,
@@ -22,7 +22,7 @@ diverso2 = {
 
 diverso3 = {
   id: 3,
-  imagem: "assets/images/diverso3.png",
+  imagem: "../assets/images/diverso3.png",
 
   nome: "Controle e console XYZ",
   preco: 60.00,
@@ -31,7 +31,7 @@ diverso3 = {
 
 diverso4 = {
   id: 4,
-  imagem: "assets/images/diverso4.png",
+  imagem: "../assets/images/diverso4.png",
 
   nome: "Controle e console XYZ",
   preco: 60.00,
@@ -40,7 +40,7 @@ diverso4 = {
 
 diverso5 = {
   id: 5,
-  imagem: "assets/images/diverso5.png",
+  imagem: "../assets/images/diverso5.png",
 
   nome: "Controle e console XYZ",
   preco: 60.00,
@@ -49,7 +49,7 @@ diverso5 = {
 
 diverso6 = {
   id: 6,
-  imagem: "assets/images/diverso6.png",
+  imagem: "../assets/images/diverso6.png",
 
   nome: "Produto",
   preco: 60.00,
