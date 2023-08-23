@@ -2,7 +2,7 @@ var listaProduto = [];
 
 produto1 = {
   id: 1,
-  imagem: "/assets/images/starWars1.png",
+  imagem: "assets/images/starWars1.png",
 
   nome: "Produto XYZ",
   preco: 60.00,
