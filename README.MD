@@ -4,7 +4,7 @@
 
 
 <h3>
-    <a href='https://erlonbs.github.io/challengeAluraGeek/'>Acessar Demostração</a>
+    <a href='https://challenge-alura-geek-one.vercel.app/index.html'>Acessar Demostração</a>
 </h3>
 
 ## 🧾Indice
