@@ -96,7 +96,7 @@ function criarDiverso() {
     verDiverso.textContent = "Ver produto ";
     verDiverso.style.color = '#2A7AE4';
     verDiverso.style.fontWeight = '700';
-    verDiverso.href = "./pages/diverso.html?id=" + listaDiverso[i].id;
+    verDiverso.href = "../pages/diverso.html?id=" + listaDiverso[i].id;
     verDiverso.style.textDecorationLine = 'none';
    
     item.appendChild(verDiverso);

@@ -99,7 +99,7 @@ var listaConsole = [];
     verConsole.style.color ='#2A7AE4';
     verConsole.style.fontWeight ='700';
     verConsole.style.textDecorationLine='none';
-    verConsole.href = './pages/console.html?id=' + listaConsole[i].id;
+    verConsole.href = '../pages/console.html?id=' + listaConsole[i].id;
 
     item.appendChild(verConsole);
 
